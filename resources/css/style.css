@@ -412,11 +412,23 @@ iframe {
     }
   }
 
-  @media (min-width: 800px) {
+.article_section {
+    line-height: 1.6;
+}
+
+@media (min-width: 800px) {
     /* For larger: */
     div.container {
         width: 60%;
         margin: auto;
+    }
+
+    .article_section {
+        padding-left: 8%;
+        padding-right: 8%;
+        font-size: 18px;
+        line-height: 32px;
+        margin: 32px 0;
     }
   }
 
