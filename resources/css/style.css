@@ -57,6 +57,10 @@ section a:link, section a:visited {
   }
 
 
+    a.button {
+        font-size: initial; 
+        line-height: initial; 
+    }
 
     a.button:link, a.button:visited {
       color: white;
