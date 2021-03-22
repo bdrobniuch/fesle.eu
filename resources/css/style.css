@@ -112,6 +112,12 @@ img.sectionimages {
     max-width: 100%;
 }
 
+img.certifications {
+    margin-top: 15px;
+    max-width: 100%;
+    max-height: 100px;
+}
+
 img.portrait {
     margin: 15px;
     width: 90%;
