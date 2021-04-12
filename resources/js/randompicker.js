@@ -95,7 +95,15 @@ var chromaticScale = [
     ["workshops.html#ahr", "How to make Agile decisions?"],
     ["workshops.html#ahr", "How to understand a particular problem and find a vision for a solution?"],
     ["workshops.html#ahr", "What are the useful agile tools for HR?"],
-    ["workshops.html#ahr", "How to work as a self organising team?"]
+    ["workshops.html#ahr", "How to work as a self organising team?"],
+
+
+    //Don’t bite the bullet
+    ["workshops.html#dbtb", "What are important factors for setting goals that inspire and motivate people?"],
+    ["workshops.html#dbtb", "What techniques and framework of goal settings could you use?"],
+    ["workshops.html#dbtb", "What are the best for personal, team, or organizational goals?"],
+    ["workshops.html#dbtb", "How to work with others to identify their goal’s framework preferences?"],
+    ["workshops.html#dbtb", "How can values and beliefs influence the goal?"]
 ]
 
 var notePool = [];
