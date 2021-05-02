@@ -87,7 +87,13 @@ img.woman {
   position: fixed;
   bottom: 0px;
   height: 60vmin;
-  left: 0px;
+
+  left: -60vmin;
+  opacity: 0;
+  -webkit-animation: flyin-left 0.5s forwards;
+  -webkit-animation-delay: 0s;
+  animation: flyin-left 0.5s forwards;
+  animation-delay: 0s;
 }
 
 img.man {
@@ -96,6 +102,13 @@ img.man {
   bottom: 10vh;
   height: 80vmin;
   right: -5vmin;
+
+  right: -60vmin;
+  opacity: 0;
+  -webkit-animation: flyin-right 0.5s forwards;
+  -webkit-animation-delay: 0s;
+  animation: flyin-right 0.5s forwards;
+  animation-delay: 0s;
 }
 
 img.whiteboard {
@@ -174,6 +187,12 @@ div.questiontxt {
   text-align: center;
   vertical-align: middle;
   display: table;
+
+  opacity: 0;
+  -webkit-animation: fadein 0.5s forwards;
+  -webkit-animation-delay: 1s;
+  animation: fadein 0.5s forwards;
+  animation-delay: 1s;  
 }
 
 div.questiontxt h1 {
@@ -408,6 +427,49 @@ iframe {
     opacity: 0;
     bottom: 90vmin;
   }
+}
+
+@-webkit-keyframes flyin-left {
+  100% { 
+    left: 0;
+    opacity: 1;
+  };
+}
+
+@keyframes flyin-left {
+  100% { 
+    left: 0;
+    opacity: 1; 
+  };
+
+}
+
+@-webkit-keyframes flyin-right {
+  100% { 
+    right: 0;
+    opacity: 1;
+  };
+}
+
+@keyframes flyin-right {
+  100% { 
+    right: -5vmin;
+    opacity: 1; 
+  };
+
+}
+
+@-webkit-keyframes fadein {
+  100% { 
+    opacity: 1;
+  };
+}
+
+@keyframes fadein {
+  100% { 
+    opacity: 1; 
+  };
+
 }
 
 @media (min-width: 500px) {
