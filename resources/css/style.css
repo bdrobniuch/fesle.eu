@@ -576,9 +576,9 @@ div.schedulecall .button {
     bottom: -18%;
     opacity: 0;
     -webkit-animation: flyin-bottom 1s forwards;
-    -webkit-animation-delay: 4s;
+    -webkit-animation-delay: 12s;
     animation: flyin-bottom 1s forwards;
-    animation-delay: 4s;
+    animation-delay: 12s;
   }
 
   div.schedulecall p {
