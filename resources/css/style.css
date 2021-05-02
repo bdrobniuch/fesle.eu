@@ -201,6 +201,14 @@ div.questiontxt {
   animation-delay: 1s;  
 }
 
+div.schedulecall {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 18%;
+  display: none;
+}
+
 div.questiontxt h1 {
   font-size: 4.5vmin;
   text-align: center;
@@ -390,6 +398,13 @@ nav {
     0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
+img.fullwidth {
+  width: 100%;
+  z-index:-1;
+  position: absolute;
+  bottom: 0;
+}
+
 section {
   padding: 15px;
   font-weight: 400;
@@ -481,6 +496,21 @@ iframe {
 
 }
 
+@-webkit-keyframes flyin-bottom {
+  100% { 
+    bottom: 0;
+    opacity: 1;
+  };
+}
+
+@keyframes flyin-bottom {
+  100% { 
+    bottom: 0;
+    opacity: 1; 
+  };
+
+}
+
 @-webkit-keyframes fadein {
   100% { 
     opacity: 1;
@@ -492,6 +522,20 @@ iframe {
     opacity: 1; 
   };
 
+}
+
+@keyframes call {
+  0%  {
+    opacity: 1;
+    transform:rotate(10deg);}
+  5% {transform:rotate(-20deg);}
+  10%  {transform:rotate(10deg);}
+  15% {transform:rotate(-20deg);}
+  20%  {transform:rotate(10deg);}
+  25% {transform:rotate(-20deg);}
+  30%  {transform:rotate(10deg);}
+  35% {transform:rotate(-20deg);}
+  40%  {transform:rotate(0deg);}
 }
 
 @media (min-width: 500px) {
@@ -515,12 +559,40 @@ iframe {
   line-height: 1.6;
 }
 
+div.schedulecall .button {
+  display: block;
+}
+
 @media (min-width: 800px) {
   /* For larger: */
   div.container {
     width: 60%;
     margin: auto;
   }
+
+  div.schedulecall {
+    display: block;
+
+    bottom: -18%;
+    opacity: 0;
+    -webkit-animation: flyin-bottom 1s forwards;
+    -webkit-animation-delay: 4s;
+    animation: flyin-bottom 1s forwards;
+    animation-delay: 4s;
+  }
+
+  div.schedulecall p {
+    color: #fc7c24;
+    margin: 0;
+    font-size: 5vw;
+
+    position: absolute;
+    left: 2vw;
+    bottom: 100%;
+    opacity: 0;
+    animation:call 2s ease-in-out infinite;
+  }
+
 
   .article_section {
     padding-left: 8%;
