@@ -1,10 +1,10 @@
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: 50px; /* height of sticky header */
+  scroll-padding-top: 45px; /* height of sticky header */
 }
 
 .main {
-  margin-top: 50px;
+  margin-top: 45px;
 }
 
 footer {
@@ -272,7 +272,7 @@ ul.navbar {
   padding: 0;
   overflow: hidden;
   background-color: #000;
-  font-size: 30px;
+  font-size: 26px;
 
   position: fixed;
   top: 0;
