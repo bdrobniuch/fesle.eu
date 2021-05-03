@@ -97,7 +97,7 @@ img.woman {
 img.man {
   pointer-events: none;
   position: fixed;
-  top: 12vh;
+  top: 16vh;
   height: 80vmin;
   right: -5vmin;
 
