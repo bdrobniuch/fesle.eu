@@ -2,6 +2,10 @@ html {
   scroll-behavior: smooth;
 }
 
+.main {
+  margin-top: 50px;
+}
+
 a.anchor {
   display: block;
   position: relative;
@@ -113,8 +117,15 @@ img.man {
 
 img.whiteboard {
   pointer-events: none;
-  height: 40vmin;
 
+  position: fixed;
+  top: 10vh;
+
+  right: -0;
+
+
+
+  height: 40vmin;
   opacity: 0;
   -webkit-animation: fadein 0.5s forwards;
   -webkit-animation-delay: 0;
@@ -261,12 +272,17 @@ section ul {
 }
 
 ul.navbar {
+  z-index: 99;
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: #000;
-  font-size: 6vmin;
+  font-size: 30px;
+
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 ul.navbar li a {
@@ -538,10 +554,45 @@ iframe {
   40%  {transform:rotate(0deg);}
 }
 
-@media (min-width: 500px) {
+ul.navbar .bars {
+  position: absolute;
+  right: 0;
+  top: 0;
+
+}
+
+ul.navresponsive li:not(:first-child) {
+  display: none;
+}
+ul.navbar li.bars {
+  float: right;
+  display: block;
+}
+
+
+
+@media (min-width: 600px) {
   /* For mobile phones: */
+  .main {
+    margin-top: 5vw;
+  }
+
+  ul.navbar {
+
+    font-size: 3.2vw;
+  }
   ul.navbar li {
     float: left;
+    display: block;
+  }
+
+  ul.navresponsive li:not(:first-child) 
+  {
+    display: block;
+  }
+
+  ul.navbar li.bars {
+    display: none;
   }
 
   img.portrait {
