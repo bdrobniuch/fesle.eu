@@ -295,6 +295,10 @@ ul.navbar li a:hover:not(.active) {
   background-color: #fc7c24;
 }
 
+ul.navresponsive li:first-child a.active {
+  background-color: black;
+}
+
 .questionmark {
   pointer-events: none;
   position: fixed;
@@ -586,6 +590,12 @@ ul.navbar li.bars {
   ul.navresponsive li:not(:first-child) 
   {
     display: block;
+  }
+
+ 
+  
+  ul.navresponsive li:first-child a.active {
+    background-color: #fc7c24;
   }
 
   ul.navbar li.bars {
