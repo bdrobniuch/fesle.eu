@@ -1,16 +1,10 @@
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 50px; /* height of sticky header */
 }
 
 .main {
   margin-top: 50px;
-}
-
-a.anchor {
-  display: block;
-  position: relative;
-  top: -250px;
-  visibility: hidden;
 }
 
 footer {
@@ -573,6 +567,9 @@ ul.navbar li.bars {
 
 @media (min-width: 600px) {
   /* For mobile phones: */
+  html {
+    scroll-padding-top: 5vw; /* height of sticky header */
+  }
   .main {
     margin-top: 5vw;
   }
