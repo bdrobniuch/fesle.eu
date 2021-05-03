@@ -97,7 +97,7 @@ img.woman {
 img.man {
   pointer-events: none;
   position: fixed;
-  bottom: 10vh;
+  top: 12vh;
   height: 80vmin;
   right: -5vmin;
 
@@ -569,7 +569,7 @@ ul.navbar li.bars {
 
 
 
-@media (min-width: 600px) {
+@media (min-width: 500px) {
   /* For mobile phones: */
   html {
     scroll-padding-top: 5vw; /* height of sticky header */
@@ -585,6 +585,10 @@ ul.navbar li.bars {
   ul.navbar li {
     float: left;
     display: block;
+  }
+
+  ul.navbar li a {
+    padding: 0.8vw 1.2vw;
   }
 
   ul.navresponsive li:not(:first-child) 
