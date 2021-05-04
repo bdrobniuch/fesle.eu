@@ -37,6 +37,7 @@ section a:link,
 section a:visited {
   color: #fc7c24;
   text-decoration: underline;
+
 }
 
 footer a:hover,
@@ -45,12 +46,13 @@ section a:hover,
 section a:active {
   background-color: #fc7c24;
   color: black;
-  transition: 0.2s ease-in;
+
 }
 
 section ul.navlist li a {
   display: list-item;
   padding: 6px 9px;
+
 }
 
 section ul {
@@ -174,7 +176,7 @@ section a.article:hover,
 a.article:active {
   background-color: #fc7c24;
   color: black;
-  transition: 0.2s ease-in;
+
 }
 
 .article img.articlephoto {
@@ -291,6 +293,12 @@ ul.navbar li a {
   text-align: left;
   padding: 2vmin 3vmin;
   text-decoration: none;
+
+
+}
+
+a{
+  transition: 0.2s ease;
 }
 
 ul.navbar li a:hover:not(.active) {
