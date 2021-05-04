@@ -64,7 +64,7 @@ var chromaticScale = [
     //How to boost motivation with your Onboarding?
     ["workshops.html#onb", "What is <span>Onboarding</span>?"],
     ["workshops.html#onb", "What are the most important steps in <span>Onboarding</span>?"],
-    ["workshops.html#onb", "How to build <span>employee motivatio</span>n in the first months?"],
+    ["workshops.html#onb", "How to build <span>employee motivation</span> in the first months?"],
     ["workshops.html#onb", "What <span>onboarding techniques</span> can help to check an employees experience?"],
     ["workshops.html#onb", "Which <span>onboarding techniques</span> are ineffective and harmful?"],
     ["workshops.html#onb", "How to prepare the <span>Onboarding</span> process and implement it?"],
