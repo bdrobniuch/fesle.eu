@@ -75,6 +75,12 @@ a.button:visited {
     0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
+a.bookmark{
+  display: none;
+}
+
+
+
 a.button:hover,
 a.button:active {
   background-color: #fc7c24;
@@ -103,9 +109,9 @@ img.man {
 
   right: -60vmin;
   opacity: 0;
-  -webkit-animation: flyin-right 0.5s forwards;
+  -webkit-animation: flyin-right-man 0.5s forwards;
   -webkit-animation-delay: 0s;
-  animation: flyin-right 0.5s forwards;
+  animation: flyin-right-man 0.5s forwards;
   animation-delay: 0s;
 }
 
@@ -495,6 +501,21 @@ iframe {
 
 }
 
+@-webkit-keyframes flyin-right-man {
+  100% { 
+    right: -5vmin;
+    opacity: 1;
+  };
+}
+
+@keyframes flyin-right-man {
+  100% { 
+    right: -5vmin;
+    opacity: 1; 
+  };
+
+}
+
 @-webkit-keyframes flyin-right {
   100% { 
     right: 0;
@@ -504,7 +525,7 @@ iframe {
 
 @keyframes flyin-right {
   100% { 
-    right: -5vmin;
+    right: 0;
     opacity: 1; 
   };
 
@@ -658,6 +679,23 @@ div.schedulecall .button {
     opacity: 0;
     animation:call 2s ease-in-out infinite;
   }
+
+  a.bookmark {
+    display: block;
+    position: fixed;
+    right: -30px;
+    top: 120px;
+    background-color: #fc7c24;
+
+    opacity: 0;
+    -webkit-animation: flyin-right 0.5s forwards;
+    -webkit-animation-delay: 0.5;
+    animation: flyin-right 0.5s forwards;
+    animation-delay: 0.5;
+
+    transform: rotate(-90deg) translate(0, -100%);
+    transform-origin: 100% 0;
+}
 
 
   .article_section {
