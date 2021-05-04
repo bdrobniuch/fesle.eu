@@ -252,7 +252,7 @@ div.questiontxt h1 {
 }
 
 #questionlink:hover span, 
-#questionlink:active  span{
+#questionlink:active span{
   color: white;
   transition: 0.2s ease;
 }
@@ -598,7 +598,7 @@ ul.navbar li.bars {
   display: block;
 }
 
-span.orange {
+#questionlink span {
   color: #fc7c24;
 
 }
