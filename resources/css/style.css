@@ -330,6 +330,24 @@ ul.navresponsive li:first-child a.active {
   right: 10vmin;
 }
 
+div.callendar {
+  border: 1px solid #fc7c24;
+  background-color: #fc7c24;
+  border-radius: 5px;
+  display: inline-block;
+  line-height: 10px;
+  margin: 0;
+  padding: 0px 2px;
+  color: white;
+  text-align: center;
+  padding-top: 1px;
+
+}
+
+div.callendar span {
+  font-size: xx-small;
+}
+
 #qm6 {
   animation-delay: 4s;
   animation-duration: 54s;
