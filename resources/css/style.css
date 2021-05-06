@@ -315,20 +315,7 @@ ul.navresponsive li:first-child a.active {
   background-color: black;
 }
 
-.questionmark {
-  pointer-events: none;
-  position: fixed;
-  animation-name: animation2;
-  animation-duration: 6s;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
-  font-size: 4.5vmin;
-  bottom: 50vmin;
-  opacity: 0;
-  color: #fc7c24;
-  text-align: right;
-  right: 10vmin;
-}
+
 
 div.callendar {
   border: 1px solid #fc7c24;
@@ -346,94 +333,6 @@ div.callendar {
 
 div.callendar span {
   font-size: xx-small;
-}
-
-#qm6 {
-  animation-delay: 4s;
-  animation-duration: 54s;
-}
-
-#qm5 {
-  animation-delay: 7s;
-  animation-duration: 54s;
-}
-
-#qm7 {
-  animation-delay: 10s;
-  animation-duration: 54s;
-}
-
-#qm8 {
-  animation-delay: 13s;
-  animation-duration: 54s;
-}
-
-#qm9 {
-  animation-delay: 16s;
-  animation-duration: 54s;
-}
-
-#qm10 {
-  animation-delay: 19s;
-  animation-duration: 54s;
-}
-
-#qm17 {
-  animation-delay: 22s;
-  animation-duration: 54s;
-}
-
-#qm16 {
-  animation-delay: 25s;
-  animation-duration: 54s;
-}
-
-#qm15 {
-  animation-delay: 28s;
-  animation-duration: 54s;
-}
-
-#qm11 {
-  animation-delay: 31s;
-  animation-duration: 54s;
-}
-
-#qm12 {
-  animation-delay: 34s;
-  animation-duration: 54s;
-}
-#qm13 {
-  animation-delay: 37s;
-  animation-duration: 54s;
-}
-#qm14 {
-  animation-delay: 40s;
-  animation-duration: 54s;
-}
-
-#qm18 {
-  animation-delay: 45s;
-  animation-duration: 54s;
-}
-
-#qm19 {
-  animation-delay: 46s;
-  animation-duration: 54s;
-}
-
-#qm20 {
-  animation-delay: 47s;
-  animation-duration: 54s;
-}
-
-#qm21 {
-  animation-delay: 48s;
-  animation-duration: 54s;
-}
-
-#qm22 {
-  animation-delay: 49s;
-  animation-duration: 54s;
 }
 
 nav {
@@ -483,36 +382,7 @@ iframe {
   width: 100%;
 }
 
-@-webkit-keyframes animation2 {
-  0% {
-    opacity: 0;
-    bottom: 50vmin;
-  }
-  4% {
-    opacity: 0.8;
-    bottom: 70vmin;
-  }
-  8% {
-    opacity: 0;
-    bottom: 90vmin;
-  }
-}
 
-
-@keyframes animation2 {
-  0% {
-    opacity: 0;
-    bottom: 50vmin;
-  }
-  4% {
-    opacity: 0.8;
-    bottom: 70vmin;
-  }
-  8% {
-    opacity: 0;
-    bottom: 90vmin;
-  }
-}
 
 @-webkit-keyframes flyin-left {
   100% { 
@@ -624,6 +494,7 @@ ul.navbar li.bars {
 /*carousel */
 #carousel {
   padding: 0;
+  background-color: #585858;
 }
 
 .carousel-wrapper {
