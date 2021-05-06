@@ -621,6 +621,108 @@ ul.navbar li.bars {
 
 }
 
+/*carousel */
+#carousel {
+  padding: 0;
+}
+
+.carousel-wrapper {
+  width: 100%;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.carousel-container {
+  width: 100%;
+  height: 350px;
+  overflow: hidden;
+  margin: 0;
+}
+
+.carousel {
+  display: flex;
+  width: 1000%;
+  animation: sliding 30s infinite;
+}
+.carousel div {
+  width: 10%;
+  height: 350px;
+  background-size: cover;
+  background-position: center;
+
+}
+.carousel .img1{
+  background-image: url("../images/workshops/selected/img1.jfif");
+}
+.carousel .img2{
+  background-image: url("../images/workshops/selected/img2.jfif");
+}
+.carousel .img3{
+  background-image: url("../images/workshops/selected/img3.jfif");
+}
+.carousel .img4{
+  background-image: url("../images/workshops/selected/img4.jfif");
+}
+.carousel .img5{
+  background-image: url("../images/workshops/selected/img5.jfif");
+}
+.carousel .img6{
+  background-image: url("../images/workshops/selected/img6.jfif");
+}
+.carousel .img7{
+  background-image: url("../images/workshops/selected/img7.jfif");
+}
+.carousel .img8{
+  background-image: url("../images/workshops/selected/img8.jfif");
+}
+.carousel .img9{
+  background-image: url("../images/workshops/selected/img9.jfif");
+}
+.carousel .img10{
+  background-image: url("../images/workshops/selected/img10.jfif");
+}
+
+@keyframes sliding {
+ 
+  2% {
+    transform: translateX(0);
+  }
+
+  10% {
+    transform: translateX(-10%);
+  }
+  19% {
+    transform: translateX(-20%);
+  }
+  28% {
+    transform: translateX(-30%);
+  }
+  37% {
+    transform: translateX(-40%);
+  }
+  46% {
+    transform: translateX(-50%);
+  }
+  55% {
+    transform: translateX(-60%);
+  }
+  64% {
+    transform: translateX(-70%);
+  }
+  73% {
+    transform: translateX(-80%);
+  }
+  82% {
+    transform: translateX(-90%);
+  }
+
+
+}
+
 
 @media (min-width: 600px) {
   /* For mobile phones: */
