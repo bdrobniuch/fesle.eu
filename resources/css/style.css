@@ -520,7 +520,7 @@ ul.navbar li.bars {
 .carousel {
   display: flex;
   width: 1000%;
-  animation: sliding 30s infinite;
+  animation: sliding 60s infinite;
 }
 .carousel div {
   width: 10%;
