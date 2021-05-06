@@ -257,11 +257,28 @@ div.questiontxt h1 {
   transition: 0.2s ease;
 }
 
+#recommendationsdiv {
+  background-color: #fafafa;
+  height: 5em;
+  border-radius: 50px;
+  border: 2px solid #fc7c24;
+  margin: auto;
+  vertical-align: middle;
+}
+
 #recommendations {
-  height: 3em;
-  overflow: scroll;
-  overflow-x: hidden;
+  overflow: auto;
   text-align: center;
+  vertical-align: middle;
+  margin: 0px;
+  padding: 0 16px;
+  height: inherit;
+}
+
+blockquote {
+  height: 100%;
+  margin: 0px;
+
 }
 
 body {
