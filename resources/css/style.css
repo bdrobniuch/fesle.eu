@@ -494,7 +494,8 @@ ul.navbar li.bars {
 /*carousel */
 #carousel {
   padding: 0;
-  background-color: #585858;
+  background-color: #fc7c24;
+  background-image: url("../images/logo.png");
 }
 
 .carousel-wrapper {
