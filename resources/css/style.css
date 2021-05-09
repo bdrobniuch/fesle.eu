@@ -3,6 +3,13 @@ html {
   scroll-padding-top: 45px; /* height of sticky header */
 }
 
+body {
+  background-color: #fafafa;
+  margin: 0;
+  padding: 0;
+  font-family: "Raleway", sans-serif;
+}
+
 .main {
   margin-top: 45px;
 }
@@ -339,13 +346,7 @@ blockquote {
 
 }
 
-body {
-  background-color: #fafafa;
-  margin: 0;
-  padding: 0;
 
-  font-family: "Raleway", sans-serif;
-}
 section ul {
   list-style-type: square;
 }
