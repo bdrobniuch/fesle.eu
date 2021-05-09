@@ -572,6 +572,10 @@ ul.navbar .bars {
 
 }
 
+div.onTop {
+  z-index: 10;
+}
+
 ul.navresponsive li:not(:first-child) {
   display: none;
 }
@@ -788,7 +792,7 @@ div.schedulecall .button {
     position: fixed;
     right: -30px;
     top: 120px;
-
+    
     opacity: 0;
     -webkit-animation: flyin-right 1s forwards;
     -webkit-animation-delay: 0.5;
