@@ -28,6 +28,7 @@ div.screen p#ourteam {
   text-align: center;
   font-size: 150%;
   font-weight: bold;
+  margin: 0;
 }
 
 figure {
