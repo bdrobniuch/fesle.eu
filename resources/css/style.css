@@ -195,12 +195,9 @@ img.whiteboard {
 img.question {
   position: absolute;
 
-  bottom: 48vmin;
-  left: 38vmin;
-
   bottom: -9vmin;
-  left: -15vmin;
-  width: 77vmin;
+  left: -14vmin;
+  width: 75vmin;
 }
 
 img.sectionimages {
@@ -259,10 +256,10 @@ a.article:active {
 
 div.questiontxt {
   position: absolute;
-  bottom: 48vmin;
-  left: 38vmin;
+  bottom: 47vmin;
+  left: 36vmin;
   width: 56vmin;
-  font-size: 4.5vmin;
+  font-size: 4.4vmin;
   height: 22vmin;
   text-align: center;
   vertical-align: middle;
