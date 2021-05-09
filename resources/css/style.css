@@ -8,16 +8,62 @@ html {
 }
 
 footer {
-  background-color: #e0e0e0;
-  height: 100vh;
-  display: none;
+  background-color:  #e0e0e0;
+  margin: 0;
+  padding: 16px;
 }
 
+footer a {
+  display: block;
+}
+
+figure {
+
+  width: 28%;
+  text-align: center;
+  margin: 0%;
+}
+
+figure img {
+  width: 100%;
+}
+
+figcaption span {
+  font-weight: bold;
+  font-size: small;
+}
+
+div.screen {
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+.bgorange {
+  color: white;
+  animation: toOrange 0.5s forwards;
+  padding: 0 20%;
+  text-align: center;
+
+}
+
+.bgorange p {
+  font-size: 150%;
+}
+
+@keyframes toOrange {
+  from {background-color: inherit}
+  to {background-color: #fc7c24;}
+}
 
 a {
   display: inline-block;
 }
 
+footer a:link,
+footer a:visited,
 section a:link,
 section a:visited {
   color: #fc7c24;
@@ -25,6 +71,8 @@ section a:visited {
 
 }
 
+footer a:hover,
+footer a:active,
 section a:hover,
 section a:active {
   background-color: #fc7c24;
@@ -32,12 +80,15 @@ section a:active {
 
 }
 
+
+footer ul.navlist li a,
 section ul.navlist li a {
   display: list-item;
   padding: 6px 9px;
 
 }
 
+footer ul,
 section ul {
   display: table;
 }
@@ -82,41 +133,43 @@ a.bookmark:active {
   background-color: #fc7c24;
 }
 
-
-
-img.woman {
+div.woman {
   pointer-events: none;
-  position: fixed;
+  position: absolute;
   bottom: 0px;
   height: 60vmin;
+  width: 70vmin; 
+  left: 0; 
 
-  left: -60vmin;
-  opacity: 0;
-  -webkit-animation: flyin-left 0.5s forwards;
-  -webkit-animation-delay: 0s;
+  background-size: auto 60vmin;
+  background-image: url('../images/woman.svg');
+  background-repeat: no-repeat;
+  background-attachment:local;
+  background-position-x: -60vmin;
   animation: flyin-left 0.5s forwards;
   animation-delay: 0s;
 }
 
-img.man {
+div.man {
   pointer-events: none;
-  position: fixed;
+  position: absolute;
   top: 16vh;
   height: 80vmin;
-  right: -5vmin;
-
-  right: -60vmin;
-  opacity: 0;
-  -webkit-animation: flyin-right-man 0.5s forwards;
-  -webkit-animation-delay: 0s;
+  width: 54vmin;
+  right: 0;
+  background-size: auto 80vmin;
+  background-image: url('../images/man.svg');
+  background-repeat: no-repeat;
+  background-attachment:local;
+  background-position-x: +60vmin;
   animation: flyin-right-man 0.5s forwards;
-  animation-delay: 0s;
+  animation-delay: 0s;  
 }
 
 img.whiteboard {
   pointer-events: none;
 
-  position: fixed;
+  position: absolute;
   top: 10vh;
 
   right: -0;
@@ -132,9 +185,13 @@ img.whiteboard {
 }
 
 img.question {
-  position: fixed;
-  bottom: 39vmin;
-  left: 23vmin;
+  position: absolute;
+
+  bottom: 48vmin;
+  left: 38vmin;
+
+  bottom: -9vmin;
+  left: -15vmin;
   width: 77vmin;
 }
 
@@ -193,7 +250,7 @@ a.article:active {
 }
 
 div.questiontxt {
-  position: fixed;
+  position: absolute;
   bottom: 48vmin;
   left: 38vmin;
   width: 56vmin;
@@ -399,33 +456,17 @@ iframe {
   width: 100%;
 }
 
-
-
-@-webkit-keyframes flyin-left {
-  100% { 
-    left: 0;
-    opacity: 1;
-  };
-}
-
 @keyframes flyin-left {
   100% { 
-    left: 0;
+    background-position-x: 0;
     opacity: 1; 
   };
 
 }
 
-@-webkit-keyframes flyin-right-man {
-  100% { 
-    right: -5vmin;
-    opacity: 1;
-  };
-}
-
 @keyframes flyin-right-man {
   100% { 
-    right: -5vmin;
+    background-position-x: 0;
     opacity: 1; 
   };
 
