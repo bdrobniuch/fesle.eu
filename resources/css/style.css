@@ -15,7 +15,7 @@ body {
 }
 
 footer {
-  background-color:  #e0e0e0;
+  background-color: #e0e0e0;
   margin: 0;
   padding: 16px;
 }
@@ -38,7 +38,7 @@ div.screen p#ourteam {
 figure {
   min-height: 32vh;
   width: 28%;
- 
+
   text-align: center;
   margin: 0%;
 }
@@ -74,7 +74,6 @@ div.schedulecall {
 }
 
 .bgorange {
-
   padding: 0 20%;
   text-align: center;
   background-color: #fc7c24;
@@ -89,15 +88,16 @@ div.schedulecall {
 
 .animate {
   animation: show 1s forwards;
-
 }
 
-
-
 @keyframes show {
-  from {opacity: 0;}
-  to {opacity: 1;
-  top: 0px;}
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+    top: 0px;
+  }
 }
 
 a {
@@ -110,7 +110,6 @@ section a:link,
 section a:visited {
   color: #fc7c24;
   text-decoration: underline;
-
 }
 
 footer a:hover,
@@ -119,15 +118,12 @@ section a:hover,
 section a:active {
   background-color: #fc7c24;
   color: black;
-
 }
-
 
 footer ul.navlist li a,
 section ul.navlist li a {
   display: list-item;
   padding: 6px 9px;
-
 }
 
 footer ul,
@@ -158,7 +154,7 @@ a.button:active {
   background-color: #fc7c24;
 }
 
-a.bookmark{
+a.bookmark {
   display: none;
   color: white;
   background-color: black;
@@ -180,13 +176,13 @@ div.woman {
   position: absolute;
   bottom: 0px;
   height: 60vmin;
-  width: 80vmin; 
-  left: 0; 
+  width: 80vmin;
+  left: 0;
 
   background-size: auto 60vmin;
-  background-image: url('../images/woman.svg');
+  background-image: url("../images/woman.svg");
   background-repeat: no-repeat;
-  background-attachment:local;
+  background-attachment: local;
   background-position-x: -60vmin;
   background-position-y: bottom;
   animation: flyin-left 0.5s forwards;
@@ -201,12 +197,12 @@ div.man {
   width: 54vmin;
   right: 0;
   background-size: auto 80vmin;
-  background-image: url('../images/man.svg');
+  background-image: url("../images/man.svg");
   background-repeat: no-repeat;
-  background-attachment:local;
+  background-attachment: local;
   background-position-x: +60vmin;
   animation: flyin-right-man 0.5s forwards;
-  animation-delay: 0s;  
+  animation-delay: 0s;
 }
 
 img.whiteboard {
@@ -216,8 +212,6 @@ img.whiteboard {
   top: 10vh;
 
   right: -0;
-
-
 
   height: 40vmin;
   opacity: 0;
@@ -236,7 +230,6 @@ img.whiteboard {
 .bottom {
   position: absolute;
   bottom: 0;
-
 }
 
 img.question {
@@ -261,7 +254,6 @@ img.certifications {
 img.portrait {
   margin: 15px;
   width: 90%;
-
 }
 
 section a.article {
@@ -281,7 +273,6 @@ section a.article:hover,
 a.article:active {
   background-color: #fc7c24;
   color: black;
-
 }
 
 .article img.articlephoto {
@@ -316,10 +307,8 @@ div.questiontxt {
   -webkit-animation: fadein 0.5s forwards;
   -webkit-animation-delay: 0.6s;
   animation: fadein 0.5s forwards;
-  animation-delay: 0.6s;  
+  animation-delay: 0.6s;
 }
-
-
 
 div.questiontxt h1 {
   font-size: 4.5vmin;
@@ -354,8 +343,8 @@ div.questiontxt h1 {
   transition: 0.2s ease;
 }
 
-#questionlink:hover span, 
-#questionlink:active span{
+#questionlink:hover span,
+#questionlink:active span {
   color: white;
   transition: 0.2s ease;
 }
@@ -381,9 +370,7 @@ div.questiontxt h1 {
 blockquote {
   height: 100%;
   margin: 0px;
-
 }
-
 
 section ul {
   list-style-type: square;
@@ -409,11 +396,9 @@ ul.navbar li a {
   text-align: left;
   padding: 2vmin 3vmin;
   text-decoration: none;
-
-
 }
 
-a{
+a {
   transition: 0.2s ease;
 }
 
@@ -429,8 +414,6 @@ ul.navresponsive li:first-child a.active {
   background-color: black;
 }
 
-
-
 div.callendar {
   border: 1px solid #fc7c24;
   background-color: #fc7c24;
@@ -442,7 +425,6 @@ div.callendar {
   color: white;
   text-align: center;
   padding-top: 1px;
-
 }
 
 div.callendar span {
@@ -461,7 +443,7 @@ nav {
 
 img.fullwidth {
   width: 100%;
-  z-index:-1;
+  z-index: -1;
   position: absolute;
   bottom: 0;
 }
@@ -497,83 +479,94 @@ iframe {
 }
 
 @keyframes flyin-left {
-  100% { 
+  100% {
     background-position-x: 0;
-    opacity: 1; 
-  };
-
+    opacity: 1;
+  }
 }
 
 @keyframes flyin-right-man {
-  100% { 
+  100% {
     background-position-x: 0;
-    opacity: 1; 
-  };
-
+    opacity: 1;
+  }
 }
 
 @-webkit-keyframes flyin-right {
-  100% { 
+  100% {
     right: 0;
     opacity: 1;
-  };
+  }
 }
 
 @keyframes flyin-right {
-  100% { 
+  100% {
     right: 0;
-    opacity: 1; 
-  };
-
+    opacity: 1;
+  }
 }
 
 @-webkit-keyframes flyin-bottom {
-  100% { 
+  100% {
     bottom: 0;
     opacity: 1;
-  };
+  }
 }
 
 @keyframes flyin-bottom {
-  100% { 
+  100% {
     bottom: 0;
-    opacity: 1; 
-  };
-
+    opacity: 1;
+  }
 }
 
 @-webkit-keyframes fadein {
-  100% { 
+  100% {
     opacity: 1;
-  };
+  }
 }
 
 @keyframes fadein {
-  100% { 
-    opacity: 1; 
-  };
-
+  100% {
+    opacity: 1;
+  }
 }
 
 @keyframes call {
-  0%  {
+  0% {
     opacity: 1;
-    transform:rotate(10deg);}
-  5% {transform:rotate(-20deg);}
-  10%  {transform:rotate(10deg);}
-  15% {transform:rotate(-20deg);}
-  20%  {transform:rotate(10deg);}
-  25% {transform:rotate(-20deg);}
-  30%  {transform:rotate(10deg);}
-  35% {transform:rotate(-20deg);}
-  40%  {transform:rotate(0deg);}
+    transform: rotate(10deg);
+  }
+  5% {
+    transform: rotate(-20deg);
+  }
+  10% {
+    transform: rotate(10deg);
+  }
+  15% {
+    transform: rotate(-20deg);
+  }
+  20% {
+    transform: rotate(10deg);
+  }
+  25% {
+    transform: rotate(-20deg);
+  }
+  30% {
+    transform: rotate(10deg);
+  }
+  35% {
+    transform: rotate(-20deg);
+  }
+  40% {
+    transform: rotate(0deg);
+  }
 }
 
 ul.navbar .bars {
   position: absolute;
   right: 0;
   top: 0;
-
 }
 
 div.onTop {
@@ -590,7 +583,6 @@ ul.navbar li.bars {
 
 #questionlink span {
   color: #fc7c24;
-
 }
 
 /*carousel */
@@ -629,41 +621,39 @@ ul.navbar li.bars {
   height: 350px;
   background-size: cover;
   background-position: center;
-
 }
-.carousel .img1{
+.carousel .img1 {
   background-image: url("../images/workshops/selected/img1.jfif");
 }
-.carousel .img2{
+.carousel .img2 {
   background-image: url("../images/workshops/selected/img2.jfif");
 }
-.carousel .img3{
+.carousel .img3 {
   background-image: url("../images/workshops/selected/img3.jfif");
 }
-.carousel .img4{
+.carousel .img4 {
   background-image: url("../images/workshops/selected/img4.jfif");
 }
-.carousel .img5{
+.carousel .img5 {
   background-image: url("../images/workshops/selected/img5.jfif");
 }
-.carousel .img6{
+.carousel .img6 {
   background-image: url("../images/workshops/selected/img6.jfif");
 }
-.carousel .img7{
+.carousel .img7 {
   background-image: url("../images/workshops/selected/img7.jfif");
 }
-.carousel .img8{
+.carousel .img8 {
   background-image: url("../images/workshops/selected/img8.jfif");
 }
-.carousel .img9{
+.carousel .img9 {
   background-image: url("../images/workshops/selected/img9.jfif");
 }
-.carousel .img10{
+.carousel .img10 {
   background-image: url("../images/workshops/selected/img10.jfif");
 }
 
 @keyframes sliding {
- 
   2% {
     transform: translateX(0);
   }
@@ -695,10 +685,7 @@ ul.navbar li.bars {
   82% {
     transform: translateX(-90%);
   }
-
-
 }
-
 
 @media (min-width: 600px) {
   /* For mobile phones: */
@@ -710,7 +697,6 @@ ul.navbar li.bars {
   }
 
   ul.navbar {
-
     font-size: 3.2vw;
   }
   ul.navbar li {
@@ -722,13 +708,10 @@ ul.navbar li.bars {
     padding: 0.8vw 1.2vw;
   }
 
-  ul.navresponsive li:not(:first-child) 
-  {
+  ul.navresponsive li:not(:first-child) {
     display: block;
   }
 
- 
-  
   ul.navresponsive li:first-child a.active {
     background-color: #fc7c24;
   }
@@ -738,7 +721,6 @@ ul.navbar li.bars {
   }
 
   img.portrait {
-
     width: 180px;
   }
   .article img.articlephoto {
@@ -763,8 +745,6 @@ div.schedulecall .button {
     margin: auto;
   }
 
-
-
   div.schedulecall {
     display: block;
     position: fixed;
@@ -788,7 +768,7 @@ div.schedulecall .button {
     left: 2vw;
     bottom: 100%;
     opacity: 0;
-    animation:call 2s ease-in-out infinite;
+    animation: call 2s ease-in-out infinite;
   }
 
   a.bookmark {
@@ -796,7 +776,7 @@ div.schedulecall .button {
     position: fixed;
     right: -30px;
     top: 120px;
-    
+
     opacity: 0;
     -webkit-animation: flyin-right 1s forwards;
     -webkit-animation-delay: 0.5;
@@ -805,8 +785,7 @@ div.schedulecall .button {
 
     transform: rotate(-90deg) translate(0, -100%);
     transform-origin: 100% 0;
-}
-
+  }
 
   .article_section {
     padding-left: 8%;
