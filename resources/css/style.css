@@ -146,6 +146,7 @@ div.woman {
   background-repeat: no-repeat;
   background-attachment:local;
   background-position-x: -60vmin;
+  background-position-y: bottom;
   animation: flyin-left 0.5s forwards;
   animation-delay: 0s;
 }
