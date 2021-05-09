@@ -52,8 +52,7 @@ div.screen {
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
-  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
-    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+
 }
 
 div.flex {
@@ -65,9 +64,9 @@ div.flex {
 
 .bgorange {
   color: white;
-  animation: toOrange 0.5s forwards;
   padding: 0 20%;
   text-align: center;
+  background-color: #fc7c24;
 
 }
 
@@ -75,9 +74,15 @@ div.flex {
   font-size: 150%;
 }
 
-@keyframes toOrange {
-  from {background-color: inherit}
-  to {background-color: #fc7c24;}
+.animate {
+  animation: show 1s forwards;
+}
+
+
+
+@keyframes show {
+  from {opacity: 0;}
+  to {opacity: 1;}
 }
 
 a {
@@ -205,6 +210,12 @@ img.whiteboard {
   -webkit-animation-delay: 0;
   animation: fadein 0.5s forwards;
   animation-delay: 0;
+}
+
+.fadeScreen {
+  opacity: 0;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+  0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
 img.question {
