@@ -758,6 +758,7 @@ div.schedulecall .button {
 
 
   div.schedulecall {
+    display: block;
     position: fixed;
     bottom: 0;
     right: 0;
