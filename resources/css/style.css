@@ -33,7 +33,8 @@ div.screen p#ourteam {
 
 figure {
   min-height: 30vh;
-  width: 30%;
+  width: 28%;
+ 
   text-align: center;
   margin: 0%;
 }
@@ -48,7 +49,7 @@ figcaption span {
 }
 
 div.screen {
-  height: 100vh;
+  height: 95vh;
   display: flex;
   text-align: center;
   flex-wrap: wrap;
