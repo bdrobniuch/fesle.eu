@@ -1,5 +1,5 @@
 // get the element to animate
-var elements = document.getElementsByClassName('fadeScreen');
+var elements = document.getElementsByClassName('fadeUp');
 
 // listen for scroll event and call animate function
 document.addEventListener('scroll', animate);

@@ -52,7 +52,7 @@ div.screen {
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
-
+  position: relative;
 }
 
 div.flex {
@@ -62,27 +62,35 @@ div.flex {
   align-items: center;
 }
 
+div.schedulecall {
+  display: none;
+}
+
 .bgorange {
-  color: white;
+
   padding: 0 20%;
   text-align: center;
   background-color: #fc7c24;
-
+  color: white;
+  font-size: 80%;
 }
 
-.bgorange p {
-  font-size: 150%;
+.bgorange span {
+  font-size: 200%;
+  color: white;
 }
 
 .animate {
   animation: show 1s forwards;
+
 }
 
 
 
 @keyframes show {
   from {opacity: 0;}
-  to {opacity: 1;}
+  to {opacity: 1;
+  top: 0px;}
 }
 
 a {
@@ -212,10 +220,16 @@ img.whiteboard {
   animation-delay: 0;
 }
 
-.fadeScreen {
+.fadeUp {
   opacity: 0;
-  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
-  0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  position: relative;
+  top: 20vh;
+}
+
+.bottom {
+  position: absolute;
+  bottom: 0;
+
 }
 
 img.question {
@@ -298,13 +312,7 @@ div.questiontxt {
   animation-delay: 0.6s;  
 }
 
-div.schedulecall {
-  position: fixed;
-  bottom: 0;
-  right: 0;
-  width: 18%;
-  display: none;
-}
+
 
 div.questiontxt h1 {
   font-size: 4.5vmin;
@@ -744,9 +752,13 @@ div.schedulecall .button {
     margin: auto;
   }
 
-  div.schedulecall {
-    display: block;
 
+
+  div.schedulecall {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 18%;
     bottom: -18%;
     opacity: 0;
     -webkit-animation: flyin-bottom 1s forwards;
@@ -774,9 +786,9 @@ div.schedulecall .button {
     top: 120px;
 
     opacity: 0;
-    -webkit-animation: flyin-right 0.5s forwards;
+    -webkit-animation: flyin-right 1s forwards;
     -webkit-animation-delay: 0.5;
-    animation: flyin-right 0.5s forwards;
+    animation: flyin-right 1s forwards;
     animation-delay: 0.5;
 
     transform: rotate(-90deg) translate(0, -100%);
