@@ -83,7 +83,6 @@ div.schedulecall {
 
 .bgorange span {
   font-size: 200%;
-  color: white;
 }
 
 .animate {
@@ -751,6 +750,15 @@ div.schedulecall .button {
   .bgorange {
     padding: 0 20%;
   }
+
+  .bgorange {
+    font-size: 120%;
+  }
+  
+  .bgorange span {
+    font-size: 250%;
+  }
+  
 
   div.schedulecall {
     display: block;
