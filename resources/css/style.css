@@ -38,13 +38,23 @@ div.screen p#ourteam {
 figure {
   min-height: 32vh;
   width: 28%;
-
+  background-color: #fafafa;
   text-align: center;
   margin: 0%;
 }
 
-figure img {
-  width: 100%;
+figure.box a.article {
+  height: 50vh;
+}
+
+figure.box a.article img {
+  height: 50%;
+  object-fit: scale-down;
+}
+
+figure.box   {
+  width: 24%;
+
 }
 
 figcaption span {
@@ -255,6 +265,7 @@ img.portrait {
   width: 90%;
 }
 
+.bgorange a.article,
 section a.article {
   background-color: #fafafa;
   padding: 15px;
@@ -268,6 +279,8 @@ section a.article {
   text-decoration: none;
 }
 
+.bgorange a.article:hover,
+.bgorange a.article:active,
 section a.article:hover,
 a.article:active {
   background-color: #fc7c24;
@@ -723,7 +736,7 @@ ul.navbar li.bars {
   img.portrait {
     width: 180px;
   }
-  .article img.articlephoto {
+  section .article img.articlephoto {
     height: 100px;
     width: 160px;
     object-fit: contain;
@@ -747,7 +760,7 @@ div.schedulecall .button {
     margin: auto;
   }
 
-  .bgorange {
+  #mission {
     padding: 0 20%;
   }
 
