@@ -74,7 +74,7 @@ div.schedulecall {
 }
 
 .bgorange {
-  padding: 0 20%;
+  padding: 0 16px;
   text-align: center;
   background-color: #fc7c24;
   color: white;
@@ -702,6 +702,7 @@ ul.navbar li.bars {
   ul.navbar li {
     float: left;
     display: block;
+    position: relative;
   }
 
   ul.navbar li a {
@@ -738,11 +739,17 @@ div.schedulecall .button {
   display: block;
 }
 
+
+
 @media (min-width: 800px) {
   /* For larger: */
   div.container {
     width: 60%;
     margin: auto;
+  }
+
+  .bgorange {
+    padding: 0 20%;
   }
 
   div.schedulecall {
