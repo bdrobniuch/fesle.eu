@@ -43,6 +43,10 @@ figure {
   margin: 0%;
 }
 
+figure img {
+  width: 100%;
+}
+
 figure.box a.article {
   height: 50vh;
 }
