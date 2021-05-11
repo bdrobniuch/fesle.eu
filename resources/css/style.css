@@ -413,6 +413,7 @@ blockquote {
   margin: 0px;
 }
 
+footer ul,
 section ul {
   list-style-type: square;
 }
