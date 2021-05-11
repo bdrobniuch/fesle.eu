@@ -52,6 +52,15 @@ figure.box a.article {
   padding: 0;
 }
 
+figure.box a.article:hover {
+  height: 55vh;
+
+}
+
+#articleframe {
+  height: 60vh;
+}
+
 figure.box a.article img {
   height: 60%;
   object-fit: cover;
