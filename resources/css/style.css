@@ -38,6 +38,7 @@ div.screen p#ourteam {
 div.screen h2 {
   font-weight: normal;
   font-size: 200%;
+  margin: 16px;
 }
 
 div.screen h2 span {
@@ -130,6 +131,10 @@ div.schedulecall {
   text-align: center;
   background-color: #fc7c24;
   color: white;
+
+}
+
+.bgorange p {
   font-size: 80%;
 }
 
