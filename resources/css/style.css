@@ -35,6 +35,19 @@ div.screen p#ourteam {
   margin: 0;
 }
 
+div.screen h2 {
+  font-weight: normal;
+  font-size: 200%;
+}
+
+div.screen h2 span {
+  color: white;
+  background-color: black;
+  margin-left: 0.5%;
+  padding-left: 0.5%;
+  padding-right: 0.5%;
+}
+
 figure {
   min-height: 32vh;
   width: 28%;
@@ -120,7 +133,7 @@ div.schedulecall {
   font-size: 80%;
 }
 
-.bgorange span {
+.bgorange p span {
   font-size: 200%;
 }
 
@@ -794,11 +807,16 @@ div.schedulecall .button {
     padding: 0 20%;
   }
 
-  .bgorange {
+  div.screen {
     font-size: 120%;
   }
   
-  .bgorange span {
+  .bgorange p span {
+    font-size: 250%;
+  }
+
+  div.screen h2 {
+    font-size: 120%;
     font-size: 250%;
   }
   
