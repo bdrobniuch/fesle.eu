@@ -49,7 +49,7 @@ div.screen h2 span {
   padding-right: 0.8%;
 }
 
-figure {
+div.screen figure {
   min-height: 32vh;
   width: 28%;
   background-color: #fafafa;
@@ -61,12 +61,12 @@ figure img {
   width: 100%;
 }
 
-figure.box a.article {
+div.screen figure.box a.article {
   height: 50vh;
   padding: 0;
 }
 
-figure.box a.article:hover {
+fdiv.screen figure.box a.article:hover {
   height: 55vh;
 
 }
@@ -82,13 +82,13 @@ figure.box a.article img {
   background-color: #e0e0e0;
 }
 
-figure.box a.article h5 {
+div.screen figure.box a.article h5 {
   margin: 5%;
   margin-top: 65%;
   text-align: left;
 }
 
-figure.box   {
+div.screen figure.box   {
   width: 24%;
 
 }
