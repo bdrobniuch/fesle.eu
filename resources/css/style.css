@@ -47,6 +47,8 @@ div.screen h2 span {
   margin-left: 0.8%;
   padding-left: 0.8%;
   padding-right: 0.8%;
+  border-radius: 4px;
+  border: 2px solid black;
 }
 
 div.screen figure {
