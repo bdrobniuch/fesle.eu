@@ -68,7 +68,6 @@ div.screen figure.box a.article {
 
 div.screen figure.box a.article:hover {
   height: 55vh;
-
 }
 
 #articleframe {
@@ -88,9 +87,8 @@ div.screen figure.box a.article h5 {
   text-align: left;
 }
 
-div.screen figure.box   {
+div.screen figure.box {
   width: 24%;
-
 }
 
 figcaption span {
@@ -131,7 +129,6 @@ div.schedulecall {
   text-align: center;
   background-color: #fc7c24;
   color: white;
-
 }
 
 .bgorange p {
@@ -182,8 +179,7 @@ section ul.navlist li a {
   padding: 6px 9px;
 }
 
-.video-container
-{
+.video-container {
   height: 95vh;
   width: 100%;
 }
@@ -192,7 +188,7 @@ section ul.navlist li a {
   top: 0;
   left: 0;
   width: 100%;
-  height:80vh;
+  height: 80vh;
 }
 
 footer ul,
@@ -812,8 +808,6 @@ div.schedulecall .button {
   display: block;
 }
 
-
-
 @media (min-width: 800px) {
   /* For larger: */
   div.container {
@@ -828,7 +822,7 @@ div.schedulecall .button {
   div.screen {
     font-size: 120%;
   }
-  
+
   .bgorange p span {
     font-size: 250%;
   }
@@ -837,7 +831,6 @@ div.schedulecall .button {
     font-size: 120%;
     font-size: 250%;
   }
-  
 
   div.schedulecall {
     display: block;
