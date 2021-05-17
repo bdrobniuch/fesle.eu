@@ -211,6 +211,12 @@ a.button {
   line-height: initial;
 }
 
+.unwebinar img{
+  width: 100%;
+  max-height: 35vh;
+}
+
+
 a.button:link,
 a.button:visited {
   color: white;
@@ -821,6 +827,11 @@ ul.navbar li.bars {
   div.screen figure.box a.article h5 {
     font-size:initial;
   }
+
+  .unwebinar .w40{
+    width: 45%;
+  }
+  
   
 }
 
