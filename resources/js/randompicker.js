@@ -5,6 +5,7 @@ var interval = 1000;
 var myVar = setInterval(myTimer, 1000);
 
 var chromaticScale = [
+    
     //Startup simulation for Agile Teams
     ["workshops.html#ssfat", "How to encourage people to do <span>pair programming</span>?"], 
     ["workshops.html#ssfat", "How to run a <span>mob programming</span> session remotely?"],
@@ -24,6 +25,7 @@ var chromaticScale = [
     ["workshops.html#bpb", "How to define <span>Product Backlog</span> elements to make them valuable on their own?"],
     ["workshops.html#bpb", "What does <span>Product Coaching</span> mean?"],
     ["workshops.html#bpb", "How to deliver <span>business value</span> as early as possible?"],
+    ["workshops.html#bpb", "When to <span>stop investing</span> in a given functionality?"],
     ["workshops.html#bpb", "Who and how is responsible for the <span>Product Backlog</span> on different levels?"],
     ["workshops.html#bpb", "How to order a <span>Product Backlog</span> while working with stakeholders and development teams?"],
     ["workshops.html#bpb", "How to move from running <span>500 concurrent projects</span> in your organization?"],
