@@ -98,7 +98,6 @@ div.screen figure.box {
   width: 23.5%;
   border-radius: 4px;
   border: 1px solid #e0e0e0;
-
 }
 
 figcaption span {
@@ -211,12 +210,11 @@ a.button {
   line-height: initial;
 }
 
-.unwebinar img{
+.unwebinar img {
   width: 100%;
   max-height: 30vh;
   object-fit: contain;
 }
-
 
 a.button:link,
 a.button:visited {
@@ -816,31 +814,26 @@ ul.navbar li.bars {
     object-fit: contain;
   }
 
-
   .article_section {
     line-height: 1.6;
   }
-  
+
   div.schedulecall .button {
     display: block;
   }
-  
+
   div.screen figure.box a.article h5 {
-    font-size:initial;
+    font-size: initial;
   }
 
-  .unwebinar .w40{
+  .unwebinar .w40 {
     width: 45%;
   }
 
-  .unwebinar img{
-    max-height:unset;
+  .unwebinar img {
+    max-height: unset;
   }
-  
-  
 }
-
-
 
 @media (min-width: 800px) {
   /* For larger: */
@@ -862,7 +855,6 @@ ul.navbar li.bars {
   }
 
   div.screen h2 {
-
     font-size: 250%;
   }
 
