@@ -28,6 +28,10 @@ footer p {
   color: #585858;
 }
 
+::selection, .fr-wrapper ::selection {
+  background-color: #f1d0a7;
+}
+
 div.screen p#ourteam {
   text-align: center;
   font-size: 150%;
