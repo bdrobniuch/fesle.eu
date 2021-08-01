@@ -443,19 +443,22 @@ div.questiontxt h1 {
   border: 2px solid #fc7c24;
   margin: auto;
   vertical-align: middle;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #recommendations {
   overflow: auto;
   text-align: center;
-  vertical-align: middle;
+
   margin: 0px;
   padding: 0 16px;
-  height: inherit;
+  
 }
 
 blockquote {
-  height: 100%;
+
   margin: 0px;
 }
 
