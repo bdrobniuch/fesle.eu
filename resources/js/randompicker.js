@@ -105,7 +105,15 @@ var chromaticScale = [
     ["workshops.html#dbtb", "What <span>techniques</span> and <spanframework</span> of goal settings could you use?"],
     ["workshops.html#dbtb", "What are the best for <span>personal</span>, <span>team</span>, or <span>organizational</span> goals?"],
     ["workshops.html#dbtb", "How to work with others to identify their goal’s <span>framework</span> preferences?"],
-    ["workshops.html#dbtb", "How can <span>values</span> and <span>beliefs</span> influence the goal?"]
+    ["workshops.html#dbtb", "How can <span>values</span> and <span>beliefs</span> influence the goal?"],
+
+    //Scrum in 60 minutes
+    ["workshops.html#scrumsixty", "What makes some teams more <span>effective</span> than others?"],
+    ["workshops.html#scrumsixty", "What is the difference between <span>empirical process control</span> and <span>defined process control?</span>"],
+    ["workshops.html#scrumsixty", "What is the <span>heart</span> of Scrum?"],
+    ["workshops.html#scrumsixty", "What are the <span>reasons</span> for each Scrum element?"],
+    ["workshops.html#scrumsixty", "When <span>NOT</span> to choose Scrum?"],
+    ["workshops.html#scrumsixty", "Ok, we have Scrum .. <span>what next?</span>"]
 ]
 
 var notePool = [];
