@@ -113,7 +113,7 @@ var chromaticScale = [
     ["workshops.html#scrumsixty", "What is the <span>heart</span> of Scrum?"],
     ["workshops.html#scrumsixty", "What are the <span>reasons</span> for each Scrum element?"],
     ["workshops.html#scrumsixty", "When <span>NOT</span> to choose Scrum?"],
-    ["workshops.html#scrumsixty", "Ok, we have Scrum .. <span>what next?</span>"]
+    ["workshops.html#scrumsixty", "Ok, we have Scrum .. <span>what's next?</span>"]
 ]
 
 var notePool = [];
