@@ -107,7 +107,7 @@ var chromaticScale = [
     ["workshops.html#dbtb", "How to work with others to identify their goal’s <span>framework</span> preferences?"],
     ["workshops.html#dbtb", "How can <span>values</span> and <span>beliefs</span> influence the goal?"],
 
-    //Scrum in 60 minutes
+    //Scrum in 90 minutes
     ["workshops.html#scrumsixty", "What makes some teams more <span>effective</span> than others?"],
     ["workshops.html#scrumsixty", "What is the difference between <span>empirical process control</span> and <span>defined process control?</span>"],
     ["workshops.html#scrumsixty", "What is the <span>heart</span> of Scrum?"],
