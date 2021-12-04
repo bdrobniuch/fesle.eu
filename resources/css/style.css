@@ -73,6 +73,7 @@ figure img {
 div.screen figure.box a.article {
   height: 50vh;
   padding: 0;
+  width: 100%;
 }
 
 div.screen figure.box a.article:hover {
@@ -99,7 +100,7 @@ div.screen figure.box a.article h5 {
 }
 
 div.screen figure.box {
-  width: 23.5%;
+  width: 32%;
   border-radius: 4px;
   border: 1px solid #e0e0e0;
 }
