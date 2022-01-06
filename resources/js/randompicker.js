@@ -43,6 +43,7 @@ var chromaticScale = [
     //Fear and Anxiety in organizations
     ["workshops.html#faaio", "What are <span>emotions</span> and how do you categorize them?"],
     ["workshops.html#faaio", "What are typical <span>symptoms</span> and <span>defense mechanisms</span> of fear?"],
+    ["workshops.html#faaio", "What is the <span>chemistry</span> behind 'how do you feel'?"],
     ["workshops.html#faaio", "How to deal with <span>anxiety</span>?"],
     ["workshops.html#faaio", "How to help others to deal with <span>anxiety</span>?"],
     ["workshops.html#faaio", "How to pay attention to <span>projective identification</span>?"],
