@@ -17,6 +17,15 @@ var chromaticScale = [
     ["workshops.html#ssfat", "How to run an <span>example mapping</span> session remotely?"],
     ["workshops.html#ssfat", "How to document your product using <span>live executable documentation</span> in Gherkin?"],
 
+    //Product Coaching Dojo: eCommerce Sparring
+
+    ["workshops.html#pc", "How to <span>identify</span> and <span>formulate</span> the right business goals?"],
+    ["workshops.html#pc", "How to definne (leading) <span>KPIs<span/>?"],
+    ["workshops.html#pc", "How to grasp and communicate the <span>impact</span> of the feature?"],
+    ["workshops.html#pc", "What <span>questions</span> work best when working with clients?"],
+    ["workshops.html#pc", "How to <span>propose</span> alternative and better solutions?"],
+    ["workshops.html#pc", "How to <span>propose</span> experiments helping to verify and validate ideas?"],
+
     //Buisnes Product Backlog
 
     ["workshops.html#bpb", "What is (and what isn't) a <span>Product Backlog</span>?"],
