@@ -118,6 +118,7 @@ div.screen {
   justify-content: space-around;
   align-items: center;
   position: relative;
+  overflow: hidden;
 }
 
 div.flex {
@@ -138,21 +139,13 @@ div.schedulecall {
   display: none;
 }
 
+
 .bgorange {
   padding: 0 16px;
   text-align: center;
-
   color: white;
-
-  background: radial-gradient(40vmin circle at 50px 200px, 
-                            #fb8b2a 100%, 
-                            transparent 10%)
-
-                            ,radial-gradient(50vmin circle at 90vw 60vh, 
-                            #fda061 100%, 
-                            transparent 10%);
-
   background-color: #fc7c24;
+  
 }
 
 .bgorange p {
@@ -161,6 +154,40 @@ div.schedulecall {
 
 .bgorange p span {
   font-size: 250%;
+}
+
+.circle,.bgorange::before, .bgorange::after {
+	content: '';
+	width: 95vmin;
+	height: 95vmin;
+
+	border-radius: 100%;
+	position: absolute;
+}
+
+.circle {
+
+  background-color: rgba(249, 178, 59, 0.28);
+  left: -20vmin;
+  top: -30vmin;
+}
+
+.bgorange::before {
+  background-color: rgba(255, 255, 255, 0.20);
+  left: -40vmin;
+  bottom: -30vmin;
+	z-index: 0;
+}
+
+.bgorange::after {
+  background-color: rgba(255, 255, 255, 0.28);
+  right: -25vmin;
+  top: 30vh;
+	z-index: 0;
+}
+
+.zindex1 {
+  z-index: 1;
 }
 
 .animate {
