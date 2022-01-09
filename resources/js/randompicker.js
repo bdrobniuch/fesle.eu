@@ -22,7 +22,7 @@ var chromaticScale = [
     ["workshops.html#pc", "How to <span>identify</span> and <span>formulate</span> the right business goals?"],
     ["workshops.html#pc", "How to definne (leading) <span>KPIs<span/>?"],
     ["workshops.html#pc", "How to grasp and communicate the <span>impact</span> of the feature?"],
-    ["workshops.html#pc", "What <span>questions</span> work best when working with clients?"],
+    ["workshops.html#pc", "What <span>questions</span> work best when talking with clients?"],
     ["workshops.html#pc", "How to <span>propose</span> alternative and better solutions?"],
     ["workshops.html#pc", "How to <span>propose</span> experiments helping to verify and validate ideas?"],
 
