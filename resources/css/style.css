@@ -82,6 +82,7 @@ div.screen figure.box a.article:hover {
 
 #articleframe {
   height: 60vh;
+
 }
 
 figure.box a.article img {
@@ -93,10 +94,10 @@ figure.box a.article img {
 
 div.screen figure.box a.article h5 {
   margin: 5%;
-  margin-top: 65%;
+  margin-top: 50%;
   text-align: left;
-  font-weight: bold;
-  font-size: x-small;
+  font-weight: lighter ;
+  font-size: 2.2vmax;
 }
 
 div.screen figure.box {
@@ -390,6 +391,7 @@ section a.article {
 
   color: black;
   text-decoration: none;
+  
 }
 
 .bgorange a.article:hover,
@@ -867,9 +869,7 @@ ul.navbar li.bars {
     display: block;
   }
 
-  div.screen figure.box a.article h5 {
-    font-size: initial;
-  }
+ 
 
   .unwebinar .w40 {
     width: 45%;
