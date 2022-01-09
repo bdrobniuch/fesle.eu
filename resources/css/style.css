@@ -146,11 +146,11 @@ div.schedulecall {
 
   background: radial-gradient(40vmin circle at 50px 200px, 
                             #fb8b2a 100%, 
-                            transparent 90%)
+                            transparent 10%)
 
                             ,radial-gradient(50vmin circle at 90vw 60vh, 
                             #fda061 100%, 
-                            transparent 90%);
+                            transparent 10%);
 
   background-color: #fc7c24;
 }
