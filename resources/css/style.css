@@ -868,14 +868,14 @@ ul.navbar li.bars {
 @media (min-width: 600px) {
   /* For mobile phones: */
   html {
-    scroll-padding-top: 5vw; /* height of sticky header */
+    scroll-padding-top: min(5.6vw, 69px); /* height of sticky header */
   }
   .main {
-    margin-top: 5vw;
+    margin-top: min(5.6vw, 69px);
   }
 
   ul.navbar {
-    font-size: 3.2vw;
+    font-size: min(3.6vw, 38px);
   }
   ul.navbar li {
     float: left;
