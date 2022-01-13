@@ -157,7 +157,7 @@ div.schedulecall {
   font-size: 3.8vmax;
 }
 
-.circle,.bgorange::before, .bgorange::after {
+.bgorange .circle,.bgorange::before, .bgorange::after {
 	content: '';
 	width: 95vmin;
 	height: 95vmin;
@@ -166,7 +166,7 @@ div.schedulecall {
 	position: absolute;
 }
 
-.circle {
+.bgorange .circle {
 
   background-color: rgba(249, 178, 59, 0.28);
   left: -20vmin;
@@ -185,6 +185,51 @@ div.schedulecall {
   right: -25vmin;
   top: 30vh;
 	z-index: 0;
+}
+
+
+.h2orange {
+  height: 120px;
+  color: white;
+  background-color: #fc7c24;
+  overflow: hidden;
+  display: flex;
+  position: relative;
+  align-items: flex-end;
+}
+
+.h2orange::before, .h2orange::after {
+	content: '';
+
+  display:block;
+  width: 140px;
+	height: 140px;
+	border-radius: 100%;
+	position: absolute;
+}
+
+.h2orange::before {
+  background-color: rgba(255, 255, 255, 0.20);
+
+	z-index: 0;
+  left: 20px;
+  top: -30px;
+}
+
+.h2orange::after {
+  background-color: rgba(255, 255, 255, 0.28);
+	z-index: 0;
+
+  right: +20px;
+  bottom: -40px;
+}
+
+.h2orange h2 {
+  font-weight: lighter;
+
+  margin: 16px ;
+  z-index: 1;
+  position: relative;
 }
 
 .zindex1 {
@@ -207,6 +252,10 @@ div.schedulecall {
 
 a {
   display: inline-block;
+}
+
+section:nth-child(odd) {
+  background: #e0e0e0;
 }
 
 footer a:link,
@@ -595,9 +644,7 @@ div.event {
     0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
-section:nth-child(odd) {
-  background: #e0e0e0;
-}
+
 
 section.contactform {
   padding: 0px;
