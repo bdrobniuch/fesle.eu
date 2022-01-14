@@ -187,8 +187,17 @@ div.schedulecall {
 	z-index: 0;
 }
 
+.workshop {
+  padding: 0;
+}
 
-.h2orange {
+.workshop div {
+  padding: 16px;
+  padding-top: 0;
+}
+
+
+.workshop .h2orange {
   height: 120px;
   color: white;
   background-color: #fc7c24;
@@ -196,6 +205,7 @@ div.schedulecall {
   display: flex;
   position: relative;
   align-items: flex-end;
+  padding: 0px;
 }
 
 .h2orange::before, .h2orange::after {
@@ -217,11 +227,16 @@ div.schedulecall {
 }
 
 .h2orange::after {
-  background-color: rgba(255, 255, 255, 0.28);
+  
 	z-index: 0;
 
   right: +20px;
   bottom: -40px;
+  background-image: url('../images/logo.png');
+  background-color: rgba(255, 255, 255, 0.28);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .h2orange h2 {
@@ -231,6 +246,7 @@ div.schedulecall {
   z-index: 1;
   position: relative;
 }
+
 
 .zindex1 {
   z-index: 1;
