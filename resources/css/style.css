@@ -212,36 +212,50 @@ div.schedulecall {
 	content: '';
 
   display:block;
-  width: 140px;
-	height: 140px;
+
 	border-radius: 100%;
 	position: absolute;
 }
 
 .h2orange::before {
   background-color: rgba(255, 255, 255, 0.20);
-
+  width: 220px;
+	height: 220px;
 	z-index: 0;
-  left: 20px;
-  top: -30px;
+  left: -40px;
+  bottom: -130px;
 }
 
 .h2orange::after {
-  
+  width: 180px;
+	height: 180px; 
 	z-index: 0;
 
-  right: +20px;
-  bottom: -40px;
-  background-image: url('../images/logo.png');
+  right: -30px;
+  top: -25px;
+  background-image: url('../images/logo_negative.png');
   background-color: rgba(255, 255, 255, 0.28);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
+.h2orange .circle {
+	content: '';
+  width: 250px;
+	height: 250px; 
+  display: block;
+	border-radius: 100%;
+	position: absolute;
+  left: -40px;
+  bottom: 20px;
+  background-color: rgba(249, 178, 59, 0.28);
+
+}
+
 .h2orange h2 {
   font-weight: lighter;
-
+  left: 0;
   margin: 16px ;
   z-index: 1;
   position: relative;
