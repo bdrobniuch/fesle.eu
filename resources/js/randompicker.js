@@ -19,12 +19,12 @@ var chromaticScale = [
 
     //Product Coaching Dojo: eCommerce Sparring
 
-    ["workshops.html#pc", "How to <span>identify</span> and <span>formulate</span> the right business goals?"],
-    ["workshops.html#pc", "How to definne (leading) <span>KPIs<span/>?"],
-    ["workshops.html#pc", "How to grasp and communicate the <span>impact</span> of the feature?"],
     ["workshops.html#pc", "What <span>questions</span> work best when talking with clients?"],
-    ["workshops.html#pc", "How to <span>propose</span> alternative and better solutions?"],
-    ["workshops.html#pc", "How to <span>propose</span> experiments helping to verify and validate ideas?"],
+    ["workshops.html#pc", "How to identify the right <span>business goals</span>?"],
+    ["workshops.html#pc", "How to define (leading) <span>KPIs</span>?"],
+    ["workshops.html#pc", "How to <span>align</span> business with tech people?"],
+    ["workshops.html#pc", "How to design <span>experiments</span> helping validate your ideas?"],
+    ["workshops.html#pc", "How to propose alternative and <span>better</span> solutions?"],
 
     //Buisnes Product Backlog
 
