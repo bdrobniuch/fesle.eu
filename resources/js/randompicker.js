@@ -50,13 +50,14 @@ var chromaticScale = [
     ["workshops.html#htrfar", "What aspects distinguish a <span>professional</span> recruitment process?"],
 
     //Fear and Anxiety in organizations
-    ["workshops.html#faaio", "What are <span>emotions</span> and how do you categorize them?"],
-    ["workshops.html#faaio", "What are typical <span>symptoms</span> and <span>defense mechanisms</span> of fear?"],
+    ["workshops.html#faaio", "What are <span>emotions</span>?"],
     ["workshops.html#faaio", "What is the <span>chemistry</span> behind 'how do you feel'?"],
+    ["workshops.html#faaio", "What are typical <span>symptoms</span> and <span>defense mechanisms</span> of anxiety?"],
     ["workshops.html#faaio", "How to deal with <span>anxiety</span>?"],
     ["workshops.html#faaio", "How to help others to deal with <span>anxiety</span>?"],
     ["workshops.html#faaio", "How to pay attention to <span>projective identification</span>?"],
-    ["workshops.html#faaio", "What are the <span>system consequences</span> of fear in the organization?"],
+    ["workshops.html#faaio", "What are the systemic sources of anxiety in the organization?"],
+    ["workshops.html#faaio", "What are the psychodynamic sources of anxiety in the organization?"],
     ["workshops.html#faaio", "What are the approaches for <span>prevention</span> and <span>intervention</span>?"],
 
     //Agile Transformation Workshop
