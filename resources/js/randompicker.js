@@ -57,8 +57,7 @@ var chromaticScale = [
     ["workshops.html#faaio", "How to help others to deal with <span>anxiety</span>?"],
     ["workshops.html#faaio", "How to pay attention to <span>projective identification</span>?"],
     ["workshops.html#faaio", "What are the <span>system consequences</span> of fear in the organization?"],
-    ["workshops.html#faaio", "What are the approaches to <span>prevention</span> and <span>intervention</span>?"],
-    ["workshops.html#faaio", "How to facilitate a <span>reflecting group</span> (Balint Group)?"],
+    ["workshops.html#faaio", "What are the approaches for <span>prevention</span> and <span>intervention</span>?"],
 
     //Agile Transformation Workshop
     ["workshops.html#atw", "What are common <span>fail patterns</span> organizations encounter while moving towards Agile?"],
