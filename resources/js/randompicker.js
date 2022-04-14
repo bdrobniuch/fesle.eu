@@ -56,8 +56,8 @@ var chromaticScale = [
     ["workshops.html#faaio", "How to deal with <span>anxiety</span>?"],
     ["workshops.html#faaio", "How to help others to deal with <span>anxiety</span>?"],
     ["workshops.html#faaio", "How to pay attention to <span>projective identification</span>?"],
-    ["workshops.html#faaio", "What are the systemic sources of anxiety in the organization?"],
-    ["workshops.html#faaio", "What are the psychodynamic sources of anxiety in the organization?"],
+    ["workshops.html#faaio", "What are the <span>systemic</span> sources of anxiety in the organization?"],
+    ["workshops.html#faaio", "What are the <span>psychodynamic</span> sources of anxiety in the organization?"],
     ["workshops.html#faaio", "What are the approaches for <span>prevention</span> and <span>intervention</span>?"],
 
     //Agile Transformation Workshop
