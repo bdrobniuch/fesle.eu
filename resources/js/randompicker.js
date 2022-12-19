@@ -66,6 +66,7 @@ var chromaticScale = [
     ["workshops.html#atw", "How to build your <span>product</span> with multiple Scrum Teams?"],
     ["workshops.html#atw", "What are the crucial steps in successful <span>Agile Transformation</span>?"],
     ["workshops.html#atw", "How to provoke <span>action</span> on higher management?"],
+    ["workshops.html#atw", "How to model <span>conversations</span> with Causal Loop Diagrams?"],
     ["workshops.html#atw", "How to <span>avoid</span> working on different tasks than planned?"],
     ["workshops.html#atw", "How to deal with <span>no time</span> for improvements?"],
     ["workshops.html#atw", "How to handle <span>integration</span> issues?"],
