@@ -16,6 +16,8 @@ var chromaticScale = [
     ["workshops.html#ssfat", "How to work online collaboratively on an <span>outcome based product backlog</span>?"],
     ["workshops.html#ssfat", "How to run an <span>example mapping</span> session remotely?"],
     ["workshops.html#ssfat", "How to document your product using <span>live executable documentation</span> in Gherkin?"],
+    ["workshops.html#ssfat", "How to better scale automated tests for web applications with </span>Screenplay Pattern</span>?"],
+    
 
     //Product Coaching Dojo: eCommerce Sparring
 
