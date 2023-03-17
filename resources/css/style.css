@@ -796,10 +796,6 @@ ul.navbar li.bars {
 /*carousel */
 #carousel {
   padding: 0;
-  background-color: black;
-  background-image: url("../images/logo.png");
-  background-size: cover;
-  background-position: center;
 }
 
 .carousel-wrapper {
