@@ -6,7 +6,7 @@ var myVar = setInterval(myTimer, 1000);
 
 var chromaticScale = [
     
-    //Startup simulation for Agile Teams
+    //XP Dojo for Dev-Teams
     ["workshops.html#ssfat", "How to encourage people to do <span>pair programming</span>?"], 
     ["workshops.html#ssfat", "How to run a <span>mob programming</span> session remotely?"],
     ["workshops.html#ssfat", "How to introduce <span>TDD</span> and <span>BDD</span> approach in my team?"],
@@ -16,7 +16,7 @@ var chromaticScale = [
     ["workshops.html#ssfat", "How to work online collaboratively on an <span>outcome based product backlog</span>?"],
     ["workshops.html#ssfat", "How to run an <span>example mapping</span> session remotely?"],
     ["workshops.html#ssfat", "How to document your product using <span>live executable documentation</span> in Gherkin?"],
-    ["workshops.html#ssfat", "How to better scale automated tests for web applications with </span>Screenplay Pattern</span>?"],
+    ["workshops.html#ssfat", "How to better scale automated tests for web applications with <span>Screenplay Pattern</span>?"],
     
 
     //Product Coaching Dojo: eCommerce Sparring
@@ -112,15 +112,7 @@ var chromaticScale = [
     ["workshops.html#ahr", "What are the useful <span>agile tools</span> for HR?"],
     ["workshops.html#ahr", "How to work as a <span>self-organising</span> team?"],
 
-
-    //Don’t bite the bullet
-    ["workshops.html#dbtb", "What are important factors for <span>setting goals</span> that inspire and motivate people?"],
-    ["workshops.html#dbtb", "What <span>techniques</span> and <spanframework</span> of goal settings could you use?"],
-    ["workshops.html#dbtb", "What are the best for <span>personal</span>, <span>team</span>, or <span>organizational</span> goals?"],
-    ["workshops.html#dbtb", "How to work with others to identify their goal’s <span>framework</span> preferences?"],
-    ["workshops.html#dbtb", "How can <span>values</span> and <span>beliefs</span> influence the goal?"],
-
-    //Scrum in 90 minutes
+    //Scrum in 120 minutes
     ["workshops.html#scrumsixty", "What makes some teams more <span>effective</span> than others?"],
     ["workshops.html#scrumsixty", "What is the difference between <span>empirical process control</span> and <span>defined process control?</span>"],
     ["workshops.html#scrumsixty", "What is the <span>heart</span> of Scrum?"],
