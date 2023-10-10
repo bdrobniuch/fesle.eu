@@ -332,12 +332,6 @@ a.button {
   line-height: initial;
 }
 
-.unwebinar img {
-  width: 100%;
-  max-height: 30vh;
-  object-fit: contain;
-}
-
 a.button:link,
 a.button:visited {
   color: white;
@@ -942,15 +936,6 @@ ul.navbar li.bars {
     display: block;
   }
 
- 
-
-  .unwebinar .w40 {
-    width: 45%;
-  }
-
-  .unwebinar img {
-    max-height: unset;
-  }
 }
 
 @media (min-width: 800px) {
@@ -996,6 +981,10 @@ ul.navbar li.bars {
     bottom: 100%;
     opacity: 0;
     animation: call 2s ease-in-out infinite;
+  }
+
+  div.newcolor {
+    color: #F87C56;
   }
 
   a.bookmark {
