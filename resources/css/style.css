@@ -1,21 +1,13 @@
-:root {
-  --orange: #fc7c24;
-  --black: #000;
-  --bg: #fafafa;
-  --muted: #e0e0e0;
-  --font: "Raleway", sans-serif;
-}
-
 html {
   scroll-behavior: smooth;
   scroll-padding-top: 45px; /* height of sticky header */
 }
 
 body {
-  background-color: var(--bg);
+  background-color: #fafafa;
   margin: 0;
   padding: 0;
-  font-family: var(--font);
+  font-family: "Raleway", sans-serif;
 }
 
 .main {
@@ -79,42 +71,37 @@ figure img {
 }
 
 div.screen figure.box a.article {
-  height: auto;
-  min-height: 0;
+  height: 50vh;
   padding: 0;
   width: 100%;
-  display: flex;
-  flex-direction: column;
 }
 
 div.screen figure.box a.article:hover {
-  height: auto;
+  height: 55vh;
 }
 
 #articleframe {
-  height: auto;
-  width: 100%;
-  gap: 12px;
+  height: 60vh;
+
 }
 
 figure.box a.article img {
-  height: 180px;
+  height: 60%;
   object-fit: cover;
   margin: 0;
   background-color: #e0e0e0;
 }
 
-div.screen figure.box a.article h3,
 div.screen figure.box a.article h5 {
-  margin: 12px;
+  margin: 5%;
+  margin-top: 50%;
   text-align: left;
-  font-weight: lighter;
-  font-size: 1.15rem;
+  font-weight: lighter ;
+  font-size: 2.2vmax;
 }
 
 div.screen figure.box {
-  width: 100%;
-  max-width: 320px;
+  width: 32%;
   border-radius: 4px;
   border: 1px solid #e0e0e0;
 }
@@ -125,8 +112,7 @@ figcaption span {
 }
 
 div.screen {
-  min-height: 90vh;
-  height: auto;
+  height: 95vh;
   display: flex;
   text-align: center;
   flex-wrap: wrap;
@@ -134,12 +120,6 @@ div.screen {
   align-items: center;
   position: relative;
   overflow: hidden;
-  padding-bottom: 24px;
-}
-
-div.screen.hero {
-  height: 95vh;
-  min-height: 95vh;
 }
 
 div.flex {
@@ -157,22 +137,7 @@ div.flex-start {
 }
 
 div.schedulecall {
-  display: block;
-  position: fixed;
-  right: 12px;
-  bottom: 12px;
-  z-index: 20;
-  width: auto;
-}
-
-div.schedulecall img,
-div.schedulecall p {
   display: none;
-}
-
-div.schedulecall .button {
-  display: inline-block;
-  margin: 0;
 }
 
 
@@ -301,12 +266,6 @@ div.schedulecall .button {
   z-index: 1;
 }
 
-.jumptarget::after {
-  content: "";
-  display: block;
-  clear: both;
-}
-
 .animate {
   animation: show 1s forwards;
 }
@@ -408,32 +367,38 @@ a.bookmark:active {
   background-color: #fc7c24;
 }
 
-.hero .woman,
 div.woman {
   pointer-events: none;
   position: absolute;
-  bottom: 0;
+  bottom: 0px;
   height: 60vmin;
-  width: auto;
-  max-width: 80vmin;
+  width: 80vmin;
   left: 0;
-  object-fit: contain;
-  object-position: left bottom;
+
+  background-size: auto 60vmin;
+  background-image: url("../images/woman.svg");
+  background-repeat: no-repeat;
+  background-attachment: local;
+  background-position-x: -60vmin;
+  background-position-y: bottom;
   animation: flyin-left 0.8s forwards;
+  animation-delay: 0s;
 }
 
-.hero .man,
 div.man {
   pointer-events: none;
   position: absolute;
   top: 16vh;
   height: 80vmin;
-  width: auto;
-  max-width: 54vmin;
+  width: 54vmin;
   right: 0;
-  object-fit: contain;
-  object-position: right top;
+  background-size: auto 80vmin;
+  background-image: url("../images/man.svg");
+  background-repeat: no-repeat;
+  background-attachment: local;
+  background-position-x: +60vmin;
   animation: flyin-right-man 0.8s forwards;
+  animation-delay: 0s;
 }
 
 img.whiteboard {
@@ -447,9 +412,9 @@ img.whiteboard {
   height: 40vmin;
   opacity: 0;
   -webkit-animation: fadein 0.5s forwards;
-  -webkit-animation-delay: 0s;
+  -webkit-animation-delay: 0;
   animation: fadein 0.8s forwards;
-  animation-delay: 0s;
+  animation-delay: 0;
 }
 
 .fadeUp {
@@ -485,7 +450,6 @@ img.certifications {
 img.portrait {
   margin: 15px;
   width: 90%;
-  float: right;
 }
 
 .bgorange a.article,
@@ -654,7 +618,7 @@ ul.navresponsive li:first-child a.active {
   background-color: black;
 }
 
-div.calendar {
+div.callendar {
   border: 1px solid #fc7c24;
   background-color: #fc7c24;
   border-radius: 5px;
@@ -667,7 +631,7 @@ div.calendar {
   padding-top: 1px;
 }
 
-div.calendar span {
+div.callendar span {
   font-size: xx-small;
 }
 
@@ -717,23 +681,15 @@ iframe {
 }
 
 @keyframes flyin-left {
-  from {
-    transform: translateX(-30%);
-    opacity: 0;
-  }
-  to {
-    transform: translateX(0);
+  100% {
+    background-position-x: 0;
     opacity: 1;
   }
 }
 
 @keyframes flyin-right-man {
-  from {
-    transform: translateX(30%);
-    opacity: 0;
-  }
-  to {
-    transform: translateX(0);
+  100% {
+    background-position-x: 0;
     opacity: 1;
   }
 }
@@ -831,7 +787,103 @@ ul.navbar li.bars {
   color: #fc7c24;
 }
 
-/* workshop carousel styles live with the rest of the layout above */
+/*carousel */
+#carousel {
+  padding: 0;
+}
+
+.carousel-wrapper {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.carousel-container {
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+  margin: 0;
+}
+
+.carousel {
+  display: flex;
+  width: 1000%;
+  animation: sliding 60s infinite;
+}
+.carousel div {
+  width: 10%;
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+}
+.carousel .img1 {
+  background-image: url("../images/workshops/selected/img1.jfif");
+}
+.carousel .img2 {
+  background-image: url("../images/workshops/selected/img2.jfif");
+}
+.carousel .img3 {
+  background-image: url("../images/workshops/selected/img3.jfif");
+}
+.carousel .img4 {
+  background-image: url("../images/workshops/selected/img4.jfif");
+}
+.carousel .img5 {
+  background-image: url("../images/workshops/selected/img5.jfif");
+}
+.carousel .img6 {
+  background-image: url("../images/workshops/selected/img6.jfif");
+}
+.carousel .img7 {
+  background-image: url("../images/workshops/selected/img7.jfif");
+}
+.carousel .img8 {
+  background-image: url("../images/workshops/selected/img8.jfif");
+}
+.carousel .img9 {
+  background-image: url("../images/workshops/selected/img9.jfif");
+}
+.carousel .img10 {
+  background-image: url("../images/workshops/selected/img10.jfif");
+}
+
+@keyframes sliding {
+  2% {
+    transform: translateX(0);
+  }
+
+  10% {
+    transform: translateX(-10%);
+  }
+  19% {
+    transform: translateX(-20%);
+  }
+  28% {
+    transform: translateX(-30%);
+  }
+  37% {
+    transform: translateX(-40%);
+  }
+  46% {
+    transform: translateX(-50%);
+  }
+  55% {
+    transform: translateX(-60%);
+  }
+  64% {
+    transform: translateX(-70%);
+  }
+  73% {
+    transform: translateX(-80%);
+  }
+  82% {
+    transform: translateX(-90%);
+  }
+}
 
 @media (min-width: 600px) {
   /* For mobile phones: */
@@ -901,11 +953,6 @@ ul.navbar li.bars {
     font-size: 120%;
   }
 
-  div.screen figure.box {
-    width: 32%;
-    max-width: none;
-  }
-
 
 
 
@@ -913,6 +960,7 @@ ul.navbar li.bars {
   div.schedulecall {
     display: block;
     position: fixed;
+    bottom: 0;
     right: 0;
     width: 18%;
     bottom: -18%;
@@ -921,14 +969,6 @@ ul.navbar li.bars {
     -webkit-animation-delay: 8s;
     animation: flyin-bottom 1s forwards;
     animation-delay: 8s;
-  }
-
-  div.schedulecall img {
-    display: block;
-  }
-
-  div.schedulecall p {
-    display: block;
   }
 
   div.schedulecall p {
@@ -955,9 +995,9 @@ ul.navbar li.bars {
 
     opacity: 0;
     -webkit-animation: flyin-right 1s forwards;
-    -webkit-animation-delay: 0.5s;
+    -webkit-animation-delay: 0.5;
     animation: flyin-right 1s forwards;
-    animation-delay: 0.5s;
+    animation-delay: 0.5;
 
     transform: rotate(-90deg) translate(0, -100%);
     transform-origin: 100% 0;
@@ -977,308 +1017,8 @@ ul.navbar li.bars {
   }
 }
 
-.fas,
-.fab {
+.fas .fab {
   margin: 2px;
   font-size: 1em;
   color: black;
-}
-
-ul.navbar li .nav-toggle {
-  display: block;
-  color: white;
-  text-align: left;
-  padding: 2vmin 3vmin;
-  text-decoration: none;
-  background: transparent;
-  border: none;
-  cursor: pointer;
-  font: inherit;
-  font-size: inherit;
-}
-
-ul.navbar li .nav-toggle:hover {
-  background-color: #585858;
-}
-
-.workshop-carousel {
-  position: relative;
-  padding: 0;
-  margin: 0;
-}
-
-.workshop-carousel-viewport {
-  overflow: hidden;
-}
-
-.workshop-carousel-track {
-  display: flex;
-  overflow-x: auto;
-  scroll-snap-type: x mandatory;
-  -webkit-overflow-scrolling: touch;
-  scroll-behavior: smooth;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  scrollbar-width: none;
-}
-
-.workshop-carousel-track::-webkit-scrollbar {
-  display: none;
-}
-
-.workshop-carousel-slide {
-  flex: 0 0 100%;
-  scroll-snap-align: center;
-  margin: 0;
-  padding: 0;
-}
-
-.workshop-carousel-slide img {
-  display: block;
-  width: 100%;
-  height: auto;
-  aspect-ratio: 16 / 9;
-  max-height: min(70vh, 560px);
-  object-fit: cover;
-}
-
-.workshop-carousel-prev,
-.workshop-carousel-next {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  z-index: 2;
-  width: 44px;
-  height: 44px;
-  border: none;
-  border-radius: 50%;
-  background: var(--black);
-  color: white;
-  cursor: pointer;
-  font-size: 1.2rem;
-}
-
-.workshop-carousel-prev {
-  left: 8px;
-}
-
-.workshop-carousel-next {
-  right: 8px;
-}
-
-.workshop-carousel-prev:hover,
-.workshop-carousel-next:hover,
-.workshop-carousel-toggle:hover {
-  background: var(--orange);
-}
-
-.workshop-carousel-dots {
-  display: flex;
-  justify-content: center;
-  gap: 8px;
-  padding: 12px 0;
-}
-
-.workshop-carousel-dots button {
-  width: 10px;
-  height: 10px;
-  padding: 0;
-  border: none;
-  border-radius: 50%;
-  background: #585858;
-  cursor: pointer;
-}
-
-.workshop-carousel-dots button[aria-current="true"] {
-  background: var(--orange);
-}
-
-.workshop-carousel-toggle {
-  display: block;
-  margin: 0 auto 12px;
-  background: var(--black);
-  color: white;
-  border: none;
-  padding: 8px 12px;
-  cursor: pointer;
-}
-
-.blog-list {
-  display: grid;
-  gap: 24px;
-}
-
-.blog-card {
-  display: block;
-  background: var(--bg);
-  color: var(--black);
-  text-decoration: none;
-  border: 1px solid var(--muted);
-  padding: 0;
-  overflow: hidden;
-}
-
-.blog-card img {
-  width: 100%;
-  height: 200px;
-  object-fit: cover;
-  display: block;
-}
-
-.blog-card-body {
-  padding: 16px;
-}
-
-.blog-card h2 {
-  margin: 8px 0;
-  font-size: 1.3rem;
-  font-weight: 600;
-}
-
-.blog-card p {
-  margin: 0;
-}
-
-.blog-card-featured {
-  grid-column: 1 / -1;
-}
-
-.blog-card-featured img {
-  height: 280px;
-}
-
-.blog-tags,
-.blog-filters {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  margin: 12px 0;
-}
-
-.blog-filters button,
-.blog-tag {
-  border: 1px solid var(--orange);
-  background: transparent;
-  color: var(--black);
-  padding: 4px 10px;
-  cursor: pointer;
-  font: inherit;
-  font-size: 0.85rem;
-  text-decoration: none;
-}
-
-.blog-filters button[aria-pressed="true"],
-.blog-tag {
-  background: var(--orange);
-  color: white;
-}
-
-.blog-meta {
-  font-size: 0.9rem;
-  color: #585858;
-  margin: 8px 0;
-}
-
-.breadcrumb {
-  font-size: 0.9rem;
-  margin-bottom: 16px;
-}
-
-.breadcrumb ol {
-  list-style: none;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 6px;
-  padding: 0;
-  margin: 0;
-}
-
-.breadcrumb li:not(:last-child)::after {
-  content: "/";
-  margin-left: 6px;
-  color: #585858;
-}
-
-.post-progress {
-  position: fixed;
-  top: 0;
-  left: 0;
-  height: 3px;
-  width: 0;
-  background: var(--orange);
-  z-index: 200;
-}
-
-.post-header img.sectionimages {
-  width: 100%;
-  max-height: 420px;
-  object-fit: cover;
-}
-
-.post-footer-nav {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 16px;
-  margin-top: 24px;
-}
-
-.post-footer-nav a {
-  display: block;
-  text-decoration: none;
-  color: var(--black);
-  background: var(--bg);
-  padding: 12px;
-  border: 1px solid var(--muted);
-}
-
-.post-footer-nav img {
-  width: 100%;
-  height: 120px;
-  object-fit: cover;
-}
-
-.post-share {
-  display: flex;
-  gap: 8px;
-  flex-wrap: wrap;
-  margin: 16px 0;
-}
-
-.related-posts {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 16px;
-  margin-top: 16px;
-}
-
-@media (min-width: 700px) {
-  .blog-list {
-    grid-template-columns: 1fr 1fr;
-  }
-}
-
-@media (prefers-reduced-motion: reduce) {
-  html {
-    scroll-behavior: auto;
-  }
-
-  .fadeUp,
-  .animate,
-  div.woman,
-  div.man,
-  img.whiteboard,
-  div.questiontxt,
-  div.schedulecall,
-  div.schedulecall p,
-  a.bookmark {
-    animation: none !important;
-    opacity: 1 !important;
-    top: 0 !important;
-    transform: none !important;
-  }
-
-  .workshop-carousel-track {
-    scroll-behavior: auto;
-  }
 }

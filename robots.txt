@@ -1,5 +1,0 @@
-User-agent: *
-Allow: /
-Disallow: /promo.html
-
-Sitemap: https://www.fesle.eu/sitemap.xml

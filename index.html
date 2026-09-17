@@ -2,84 +2,97 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>FesLe: We bring business and tech people together!</title>
     <meta
       name="description"
-      content="Find answers to practical questions from Product Management, Agile Transformation, Extreme programming, Leadership, Recruiting, OnBoarding &amp; Agile HR"
+      content="Find answers to practical questions from Product Management, Agile Transformation, Extreme programming, Leadership, Recruiting, OnBoarding & Agile HR"
     />
-    <link rel="canonical" href="https://www.fesle.eu/" />
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content="FesLe: We bring business and tech people together!" />
-    <meta property="og:description" content="Find answers to practical questions from Product Management, Agile Transformation, Extreme programming, Leadership, Recruiting, OnBoarding &amp; Agile HR" />
-    <meta property="og:url" content="https://www.fesle.eu/" />
-    <meta property="og:image" content="https://www.fesle.eu/resources/images/logo.png" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <link rel="stylesheet" href="/resources/css/style.css" />
-    <link rel="icon" href="/resources/images/icon.png" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital@0;1&amp;display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
-    <meta name="view-transition" content="same-origin" />
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-7EKSC3LESW"></script>
+
+    <link rel="stylesheet" href="resources/css/style.css" />
+    <link rel="icon" href="resources/images/icon.png" />
+
+    <link rel="preload" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+    <!-- (c) 2021 -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-7EKSC3LESW"
+    ></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag() {
         dataLayer.push(arguments);
       }
       gtag("js", new Date());
+
       gtag("config", "G-7EKSC3LESW");
     </script>
   </head>
   <body>
-    <!-- NAV: keep in sync with snippets/nav.html -->
     <nav>
       <ul class="navbar navresponsive" id="idnavbar">
-        <li><a href="/" class="active">FesLe</a></li>
-        <li><a href="/workshops.html">Workshops</a></li>
-        <li><a href="/calendar.html">Calendar</a></li>
-        <li><a href="/blog.html">Blog</a></li>
-        <li><a href="/trainers.html">Trainers</a></li>
-        <li><a href="/contact.html">Contact</a></li>
-        <li class="bars">
-          <button type="button" class="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="idnavbar" onclick="navResponsive()">
-            <i class="fas fa-bars" aria-hidden="true"></i>
-          </button>
+        <li class="fadeUp animate" style="animation-delay: 0s">
+          <a href="index.html" class="active">FesLe</a>
+        </li>
+        <li class="fadeUp animate" style="animation-delay: 0.1s">
+          <a href="workshops.html">Workshops</a>
+        </li>
+        <li class="fadeUp animate" style="animation-delay: 0.2s">
+          <a href="calendar.html">Calendar</a>
+        </li>
+        <li class="fadeUp animate" style="animation-delay: 0.3s">
+          <a href="blog.html">Blog</a>
+        </li>
+        <li class="fadeUp animate" style="animation-delay: 0.4s">
+          <a href="trainers.html">Trainers</a>
+        </li>
+        <li class="fadeUp animate" style="animation-delay: 0.5s">
+          <a href="contact.html">Contact</a>
+        </li>
+        <li class="bars fadeUp animate" style="animation-delay: 0.1s">
+          <a href="javascript:void(0);" onclick="navResponsive()"
+            ><i class="fas fa-bars"></i
+          ></a>
         </li>
       </ul>
     </nav>
     <div>
-      <div class="screen hero">
+      <div class="screen">
         <img
-          src="/resources/images/whiteboard.svg"
+          src="resources/images/whiteboard.svg"
           class="whiteboard"
-          alt="Whiteboard with sticky notes with questions from training participants about: Product Management, Agile Transformation, Extreme programming, Leadership, Recruiting &amp; OnBoarding and Agile HR"
+          style="float: right"
+          alt="Whiteboard with sticky notes with questions from training participants about: Product Management, Agile Transformation, Extreme programming, Leadership, Recruiting & OnBoarding and Agile HR"
         />
-        <img
-          src="/resources/images/man.svg"
-          class="man"
-          alt="The trainer listens to the trainee and gives a detailed answer"
-        />
-        <img
-          src="/resources/images/woman.svg"
-          class="woman"
-          alt="The trainee asks the trainer a question about the training"
-        />
+        <div class="man"></div>
+        <div class="woman"></div>
 
         <div class="questiontxt flex">
           <img
-            src="/resources/images/question.svg"
+            src="resources/images/question.svg"
             class="question"
-            alt="Question bubble with burning questions"
+            alt="question buble with nurting questions"
           />
           <h1>
-            <a href="/workshops.html" id="questionlink"
+            <a href="workshops.html" id="questionlink"
               >Hey <span>FesLe</span><br />I wonder...</a
             >
           </h1>
+          <!-- <progress id="bar" value="0" max="3"> 3 </progress> -->
         </div>
         <div class="bottom">
-          <a href="/#mission" class="button fadeUp animate"
+          <a href="index.html#mission" class="button fadeUp animate"
             ><i class="fas fa-chevron-down"></i> Scroll down</a
           >
         </div>
@@ -92,18 +105,18 @@
             We help you bring business and tech people together
           </h2>
 
-          <a href="/workshops.html" class="button fadeUp"
+          <a href="workshops.html" class="button fadeUp"
             ><i class="fab fa-wpexplorer"></i> Explore our workshops</a
           >
 
           <p class="fadeUp">
             Find answers to practical questions from Product Management, Agile
             Transformation, Extreme programming, Leadership, Recruiting,
-            OnBoarding &amp; Agile HR
+            OnBoarding & Agile HR
           </p>
           <div class="flex">
             <p class="fadeUp" style="animation-delay: 0s">
-              workshop participants:<br /><span>1000+</span>
+              worksop participants:<br /><span>1000+</span>
             </p>
             <p class="fadeUp" style="animation-delay: 0.2s">
               events designed:<br /><span>50+</span>
@@ -116,27 +129,38 @@
       </div>
 
       <div class="fadeUp onTop">
-        <a href="/calendar.html" class="bookmark">Calendar</a>
+        <a href="calendar.html" class="bookmark">Callendar</a>
       </div>
       <div class="screen">
         <div>
           <h2 class="fadeUp">FesLe<span>Team:</span></h2>
           <div class="flex">
+            <!--             <figure>
+              <img
+                class="fadeUp"
+                src="resources/mail_footer/marzena_photo.png"
+                alt="Marzena Zaziąbł"
+                style="animation-delay: 0s"
+              />
+              <figcaption class="fadeUp" style="animation-delay: 0s">
+                <span>Agile Lead</span><br />Marzena Zaziąbł
+              </figcaption>
+            </figure> -->
             <figure>
               <img
                 class="fadeUp"
-                src="/resources/mail_footer/blazej_photo.png"
+                src="resources/mail_footer/blazej_photo.png"
                 alt="Błażej Drobniuch"
                 style="animation-delay: 0.2s"
               />
               <figcaption class="fadeUp" style="animation-delay: 0.2s">
-                <span>Org-Design &amp; XP Trainer</span><br />Błażej Drobniuch
+                <span>Org-Design & XP Trainer</span><br />Błażej Drobniuch
               </figcaption>
             </figure>
             <figure>
               <img
                 class="fadeUp"
-                src="/resources/mail_footer/tomek_photo.png"
+                src="resources/mail_footer/tomek_photo.png"
                 alt="Tomasz Morański"
                 style="animation-delay: 0.4s"
               />
@@ -148,7 +172,6 @@
           <div>
             <a
               target="_blank"
-              rel="noopener noreferrer"
               href="https://koalendar.com/e/meet-with-fesle-team"
               class="button fadeUp"
               ><i class="fas fa-phone-volume"></i> Book a call</a
@@ -161,68 +184,72 @@
         <div class="zindex1">
           <h2 class="fadeUp">FesLe<span>Articles:</span></h2>
           <div class="flex" id="articleframe">
+
+
             <figure class="box fadeUp" style="animation-delay: 0.2s">
-              <a class="article" href="/blog/recruit-8-stances-scrum-master.html">
+              <a class="article" href="blog.html#htrsm">
                 <img
-                  src="/resources/images/blog/htrsm_small.png"
+                  src="resources/images/blog/htrsm_small.png"
                   alt="How to recruit an 8 Stances Scrum Master?"
                   class="articlephoto"
+                  align="left"
                 />
-                <h3>How to recruit an 8 Stances Scrum Master</h3>
+                <h5>How to recruit an 8 Stances Scrum Master</h5>
               </a>
             </figure>
 
             <figure class="box fadeUp" style="animation-delay: 0.4s">
-              <a class="article" href="/blog/orange-green-teal-organizations.html">
+              <a class="article" href="blog.html#want2work">
                 <img
-                  src="/resources/images/blog/want2work_small.png"
+                  src="resources/images/blog/want2work_small.png"
                   alt="Where do you really want to work? (Orange vs. Green vs. Teal)"
                   class="articlephoto"
+                  align="left"
                 />
-                <h3>Orange organization vs. Green vs. Teal</h3>
+                <h5>
+                  Orange organization vs. Green vs. Teal
+                </h5>
               </a>
             </figure>
 
             <figure class="box fadeUp" style="animation-delay: 0.6s">
-              <a class="article" href="/blog/scrum-master-conflict-skills.html">
+              <a class="article" href="blog.html#conflictskills">
                 <img
-                  src="/resources/images/blog/conflictskills_small.png"
+                  src="resources/images/blog/conflictskills_small.png"
                   alt="Does a Scrum Master need Conflict Resolution Skills?"
                   class="articlephoto"
+                  align="left"
                 />
-                <h3>Does a Scrum Master need Conflict Resolution Skills?</h3>
+                <h5>Does a Scrum Master need Conflict Resolution Skills?</h5>
               </a>
             </figure>
           </div>
-          <a href="/blog.html" class="button fadeUp"
+          <a href="blog.html" class="button fadeUp"
             ><i class="fas fa-newspaper"></i> Read more</a
           >
         </div>
       </div>
+
     </div>
-    <!-- FOOTER: keep in sync with snippets/footer.html -->
     <footer>
       <p class="fadeUp">Many thanks for your interactions and support!</p>
+
       <div class="flex-start">
         <div>
           <ul class="navlist">
             <li class="fadeUp">
-              <a href="mailto:contact@fesle.eu"
+              <a href="mailto: contact@fesle.eu"
                 ><i class="fas fa-envelope-open"></i> contact@fesle.eu</a
               >
             </li>
             <li class="fadeUp">
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://koalendar.com/e/meet-with-fesle-team"
+              <a target="_blank" href="https://koalendar.com/e/meet-with-fesle-team"
                 ><i class="fas fa-phone-volume"></i> Book a call</a
               >
             </li>
             <li class="fadeUp">
               <a
                 target="_blank"
-                rel="noopener noreferrer"
                 href="https://www.linkedin.com/company/75764132"
                 ><i class="fab fa-linkedin"></i> FesLe on LinkedIn</a
               >
@@ -232,33 +259,34 @@
         <div>
           <ul class="navlist">
             <li class="fadeUp">
-              <a href="/workshops.html"
+              <a href="workshops.html"
                 ><i class="fab fa-wpexplorer"></i> Workshops</a
               >
             </li>
             <li class="fadeUp">
-              <a href="/calendar.html"
+              <a href="calendar.html"
                 ><i class="fas fa-calendar-alt"></i> Calendar</a
               >
             </li>
             <li class="fadeUp">
-              <a href="/blog.html"><i class="fas fa-newspaper"></i> Blog</a>
+              <a href="blog.html"><i class="fas fa-newspaper"></i> Blog</a>
             </li>
             <li class="fadeUp">
-              <a href="/trainers.html"
+              <a href="trainers.html"
                 ><i class="fas fa-chalkboard-teacher"></i> Trainers</a
               >
             </li>
             <li class="fadeUp">
-              <a href="/contact.html"><i class="fas fa-rocket"></i> About Us</a>
+              <a href="contact.html"><i class="fas fa-rocket"></i> About Us</a>
             </li>
           </ul>
         </div>
       </div>
-      <p class="fadeUp">© FesLe 2021–2026. All rights reserved.</p>
+
+      <p class="fadeUp">© FesLe 2021. All rights reserved.</p>
     </footer>
-    <script src="/resources/js/randompicker.js"></script>
-    <script src="/resources/js/navresponsive.js"></script>
-    <script src="/resources/js/animate.js"></script>
+    <script src="./resources/js/randompicker.js"></script>
+    <script src="./resources/js/navresponsive.js"></script>
+    <script src="./resources/js/animate.js"></script>
   </body>
 </html>
