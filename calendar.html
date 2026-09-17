@@ -3,19 +3,22 @@
 
 <head>
   <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>FesLe - Calendar</title>
-  <meta name="description" content="Check out our events and or contribution to community" />
-  <link rel="stylesheet" href="resources/css/style.css" />
-  <link rel="icon" href="resources/images/icon.png" />
-
-  <link rel="preconnect" href="https://fonts.gstatic.com" />
-  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital@0;1&display=swap" rel="stylesheet" />
-
+  <meta name="description" content="Upcoming talks, workshops and community events from the FesLe team." />
+  <link rel="canonical" href="https://www.fesle.eu/calendar.html" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="FesLe - Calendar" />
+  <meta property="og:description" content="Upcoming talks, workshops and community events from the FesLe team." />
+  <meta property="og:url" content="https://www.fesle.eu/calendar.html" />
+  <meta property="og:image" content="https://www.fesle.eu/resources/images/logo.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="stylesheet" href="/resources/css/style.css" />
+  <link rel="icon" href="/resources/images/icon.png" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital@0;1&amp;display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
-
-  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <meta name="view-transition" content="same-origin" />
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-7EKSC3LESW"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -23,22 +26,24 @@
       dataLayer.push(arguments);
     }
     gtag("js", new Date());
-
     gtag("config", "G-7EKSC3LESW");
   </script>
 </head>
 
 <body>
+  <!-- NAV: keep in sync with snippets/nav.html -->
   <nav>
     <ul class="navbar navresponsive" id="idnavbar">
-      <li><a href="index.html">FesLe</a></li>
-      <li><a href="workshops.html">Workshops</a></li>
-      <li><a href="calendar.html" class="active">Calendar</a></li>
-      <li><a href="blog.html">Blog</a></li>
-      <li><a href="trainers.html">Trainers</a></li>
-      <li><a href="contact.html">Contact</a></li>
+      <li><a href="/">FesLe</a></li>
+      <li><a href="/workshops.html">Workshops</a></li>
+      <li><a href="/calendar.html" class="active">Calendar</a></li>
+      <li><a href="/blog.html">Blog</a></li>
+      <li><a href="/trainers.html">Trainers</a></li>
+      <li><a href="/contact.html">Contact</a></li>
       <li class="bars">
-        <a href="javascript:void(0);" onclick="navResponsive()"><i class="fas fa-bars"></i></a>
+        <button type="button" class="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="idnavbar" onclick="navResponsive()">
+          <i class="fas fa-bars" aria-hidden="true"></i>
+        </button>
       </li>
     </ul>
   </nav>
@@ -46,9 +51,9 @@
   <div class="main">
     <div class="container">
       <div class="schedulecall">
-        <img src="resources/mail_footer/blazej_photo.png" alt="" class="fullwidth" align="center" />
+        <img src="/resources/mail_footer/blazej_photo.png" alt="" class="fullwidth" />
         <p><i class="fas fa-phone-volume"></i></p>
-        <a target="_blank" href="https://koalendar.com/e/meet-with-fesle-team" class="button">Book a call</a>
+        <a target="_blank" rel="noopener noreferrer" href="https://koalendar.com/e/meet-with-fesle-team" class="button">Book a call</a>
       </div>
 
       <section>
@@ -57,7 +62,7 @@
         <h3>October 2026</h3>
         <div class="event">
           <h3>
-            <div class="callendar">3<br /><span>OCT</span></div>
+            <div class="calendar">3<br /><span>OCT</span></div>
             AI-BDD: How to Turn Conversations into Living Documentation Using Generative AI
           </h3>
           <p>
@@ -83,20 +88,20 @@
           </p>
           <p>
             <i class="fas fa-map-marker-alt"></i> Tauron Arena, Kraków
-            <a href="https://hackyeah.pl/" target="_blank">Get your ticket at HackYeah</a>
+            <a href="https://hackyeah.pl/" target="_blank" rel="noopener noreferrer">Get your ticket at HackYeah</a>
           </p>
           <p><i class="fas fa-language"></i> Language English</p>
           <p>
             <i class="fas fa-chalkboard-teacher"></i>
-            <a href="trainers.html#bd">Błażej Drobniuch</a>
+            <a href="/trainers.html#bd">Błażej Drobniuch</a>
           </p>
-          <a href="contact.html#contactform" class="button">Contact us</a>
+          <a href="/contact.html#contactform" class="button">Contact us</a>
         </div>
 
         <h3>September 2026</h3>
         <div class="event">
           <h3>
-            <div class="callendar">24<br /><span>SEP</span></div>
+            <div class="calendar">24<br /><span>SEP</span></div>
             AGILE pod Wawelem: Jak poprawnie wdrożony SAFe 6.0 usuwa samego siebie
           </h3>
           <p>
@@ -129,21 +134,21 @@
           <p>
             <i class="fas fa-map-marker-alt"></i> UNITY CENTRE, ul. Aleksandra Lubomirskiego 24, 31-509 Kraków
             (Autodesk office)
-            <a href="https://lnkd.in/dGJqpGF9" target="_blank">Get your free ticket</a>
+            <a href="https://lnkd.in/dGJqpGF9" target="_blank" rel="noopener noreferrer">Get your free ticket</a>
           </p>
           <p><i class="fas fa-language"></i> Language Polish</p>
           <p>
             <i class="fas fa-chalkboard-teacher"></i>
-            <a href="trainers.html#bd">Błażej Drobniuch</a>
+            <a href="/trainers.html#bd">Błażej Drobniuch</a>
           </p>
-          <a href="contact.html#contactform" class="button">Contact us</a>
+          <a href="/contact.html#contactform" class="button">Contact us</a>
         </div>
 
         <h2>Past events:</h2>
         <h3>May 2026</h3>
         <div class="event">
           <h3>
-            <div class="callendar">11<br /><span>MAY</span></div>
+            <div class="calendar">11<br /><span>MAY</span></div>
             Empathy – the key to resilience. How to manage yourself in times of uncertainty?
           </h3>
           <p>
@@ -158,25 +163,24 @@
           </p>
           <p>
             <i class="fas fa-map-marker-alt"></i> Cracow
-            <a href="https://nowoczesneorganizacje.pl/empatycznewarsztaty/" target="_blank">Register at Empatyczne
+            <a href="https://nowoczesneorganizacje.pl/empatycznewarsztaty/" target="_blank" rel="noopener noreferrer">Register at Empatyczne
               Warsztaty
             </a>
           </p>
           <p><i class="fas fa-language"></i> Language Polish</p>
           <p>
             <i class="fas fa-chalkboard-teacher"></i>
-            <a href="trainers.html#tm">Tomasz Morański</a>
+            <a href="/trainers.html#tm">Tomasz Morański</a>
             <a href="https://www.linkedin.com/in/sylwia-urbanek-53666851/">Sylwia Urbanek</a>
           </p>
-          <a href="contact.html#contactform" class="button">Contact us</a>
+          <a href="/contact.html#contactform" class="button">Contact us</a>
         </div>
 
 
-        <h2>Past events:</h2>
         <h3>November 2025</h3>
         <div class="event">
           <h3>
-            <div class="callendar">5<br /><span>NOV</span></div>
+            <div class="calendar">5<br /><span>NOV</span></div>
             Guide Process Improvement Discussions with Systems Thinking and AI
           </h3>
           <p>
@@ -213,7 +217,7 @@
           </p>
           <p>
             <i class="fas fa-calendar-alt"></i>
-            November 5 (Wednsday) 2025
+            November 5 (Wednesday) 2025
           </p>
           <p>
             <i class="fas fa-map-marker-alt"></i> Small Heath Business Park, Talbot Wy, Birmingham B10 0HJ, Great
@@ -222,16 +226,16 @@
           <p><i class="fas fa-language"></i> Language English</p>
           <p>
             <i class="fas fa-chalkboard-teacher"></i>
-            <a href="trainers.html#bd">Błażej Drobniuch</a>
+            <a href="/trainers.html#bd">Błażej Drobniuch</a>
           </p>
-          <a href="contact.html#contactform" class="button">Contact us</a>
+          <a href="/contact.html#contactform" class="button">Contact us</a>
         </div>
 
 
         <h3>October 2025</h3>
         <div class="event">
           <h3>
-            <div class="callendar">17<br /><span>OCT</span></div>
+            <div class="calendar">17<br /><span>OCT</span></div>
             AI-BDD: How to Turn Conversations into Living Documentation Using Generative AI
           </h3>
           <p>
@@ -265,20 +269,20 @@
           <p>
             <i class="fas fa-map-marker-alt"></i> The HEINEKEN Company Global Shared Services Office, al. Jana Pawła II
             43a, 31-564 Kraków
-            <a href="https://app.evenea.pl/event/apwkonfheineken/" target="_blank">Get your ticket for AGILE przez
+            <a href="https://app.evenea.pl/event/apwkonfheineken/" target="_blank" rel="noopener noreferrer">Get your ticket for AGILE przez
               Weekend - HEINEKEN 17.10.25</a>
           </p>
           <p><i class="fas fa-language"></i> Language English</p>
           <p>
             <i class="fas fa-chalkboard-teacher"></i>
-            <a href="trainers.html#bd">Błażej Drobniuch</a>
+            <a href="/trainers.html#bd">Błażej Drobniuch</a>
           </p>
-          <a href="contact.html#contactform" class="button">Contact us</a>
+          <a href="/contact.html#contactform" class="button">Contact us</a>
         </div>
 
         <div class="event">
           <h3>
-            <div class="callendar">9<br /><span>OCT</span></div>
+            <div class="calendar">9<br /><span>OCT</span></div>
             AI-BDD: How to Turn Conversations into Living Documentation Using Generative AI
           </h3>
           <p>
@@ -313,20 +317,20 @@
             Address:Paul van Vlissingenstraat 24
             1096 BK, Amsterdam
             <a href="https://less.works/conferenza/conferences/2025-global-less-conference-amsterdam-13"
-              target="_blank">Get your ticket at LeSS conference</a>
+              target="_blank" rel="noopener noreferrer">Get your ticket at LeSS conference</a>
           </p>
           <p><i class="fas fa-language"></i> Language English</p>
           <p>
             <i class="fas fa-chalkboard-teacher"></i>
-            <a href="trainers.html#bd">Błażej Drobniuch</a>
+            <a href="/trainers.html#bd">Błażej Drobniuch</a>
           </p>
-          <a href="contact.html#contactform" class="button">Contact us</a>
+          <a href="/contact.html#contactform" class="button">Contact us</a>
         </div>
 
         <h3>May 2025</h3>
         <div class="event">
           <h3>
-            <div class="callendar">22<br /><span>MAY</span></div>
+            <div class="calendar">22<br /><span>MAY</span></div>
             Inverse Conway Maneuver Myth
           </h3>
           <p>
@@ -359,14 +363,14 @@
           </p>
           <p>
             <i class="fas fa-map-marker-alt"></i> Multikino, ul. Dobrego Pasterza 128 Kraków
-            <a href="https://aceconf.com/#tickets" target="_blank">Get your ticket at ACE!</a>
+            <a href="https://aceconf.com/#tickets" target="_blank" rel="noopener noreferrer">Get your ticket at ACE!</a>
           </p>
           <p><i class="fas fa-language"></i> Language English</p>
           <p>
             <i class="fas fa-chalkboard-teacher"></i>
-            <a href="trainers.html#bd">Błażej Drobniuch</a>
+            <a href="/trainers.html#bd">Błażej Drobniuch</a>
           </p>
-          <a href="contact.html#contactform" class="button">Contact us</a>
+          <a href="/contact.html#contactform" class="button">Contact us</a>
         </div>
 
 
@@ -374,7 +378,7 @@
 
         <div class="event">
           <h3>
-            <div class="callendar">16<br /><span>APR</span></div>
+            <div class="calendar">16<br /><span>APR</span></div>
             Beyond Scrum with AI
           </h3>
           <p>
@@ -409,24 +413,24 @@
           </p>
           <p>
             <i class="fas fa-map-marker-alt"></i> Online
-            <a href="https://www.meetup.com/es-ES/barcelona-scrum/events/307045836/" target="_blank">Subscribe at
+            <a href="https://www.meetup.com/es-ES/barcelona-scrum/events/307045836/" target="_blank" rel="noopener noreferrer">Subscribe at
               Meetup.com</a>
           </p>
           <p><i class="fas fa-language"></i> Language English</p>
           <p>
             <i class="fas fa-chalkboard-teacher"></i>
-            <a href="trainers.html#bd">Błażej Drobniuch</a>
+            <a href="/trainers.html#bd">Błażej Drobniuch</a>
             <a href="https://www.linkedin.com/in/pawelbrodzinski/">Pawel Brodzinski</a>
             <a href="https://www.linkedin.com/in/alexballarin/">Alex Ballarin</a>
           </p>
-          <a href="contact.html#contactform" class="button">Contact us</a>
+          <a href="/contact.html#contactform" class="button">Contact us</a>
         </div>
 
         <h3>Dec 2024</h3>
 
         <div class="event">
           <h3>
-            <div class="callendar">03<br /><span>DEC</span></div>
+            <div class="calendar">03<br /><span>DEC</span></div>
             Talk LeSS Warsaw - From Conway’s Law to Cognitive Load: Rethinking Organizational Agility
           </h3>
           <p>
@@ -454,21 +458,21 @@
             Building GH; Entrance B
             Grzybowska 56 Street
             00-844 Warsaw
-            <a href="https://talkless.pl/" target="_blank">Get your ticket at TalkLeSS.pl</a>
+            <a href="https://talkless.pl/" target="_blank" rel="noopener noreferrer">Get your ticket at TalkLeSS.pl</a>
           </p>
           <p><i class="fas fa-language"></i> Language English</p>
           <p>
             <i class="fas fa-chalkboard-teacher"></i>
-            <a href="trainers.html#bd">Błażej Drobniuch</a>
+            <a href="/trainers.html#bd">Błażej Drobniuch</a>
           </p>
-          <a href="contact.html#contactform" class="button">Contact us</a>
+          <a href="/contact.html#contactform" class="button">Contact us</a>
         </div>
 
         <h3>May 2024</h3>
 
         <div class="event">
           <h3>
-            <div class="callendar">21<br /><span>MAY</span></div>
+            <div class="calendar">21<br /><span>MAY</span></div>
             Scrum Barcelona Meetup - Ideas that cripple organizations in 2024
           </h3>
           <p>
@@ -495,7 +499,7 @@
           </p>
           <p>
             <i class="fas fa-map-marker-alt"></i> Online
-            <a href="https://www.meetup.com/barcelona-scrum/events/300858426/" target="_blank">Subscribe
+            <a href="https://www.meetup.com/barcelona-scrum/events/300858426/" target="_blank" rel="noopener noreferrer">Subscribe
               at
               Meetup.com</a>
           </p>
@@ -503,9 +507,9 @@
           <p>
             <i class="fas fa-chalkboard-teacher"></i>
             <a href="https://less.works/profiles/viktor-grgic">Viktor Grgić</a>
-            <a href="trainers.html#bd">Błażej Drobniuch</a>
+            <a href="/trainers.html#bd">Błażej Drobniuch</a>
           </p>
-          <a href="contact.html#contactform" class="button">Contact us</a>
+          <a href="/contact.html#contactform" class="button">Contact us</a>
         </div>
 
 
@@ -514,18 +518,18 @@
 
         <div class="event">
           <h3>
-            <div class="callendar">18<br /><span>APR</span></div>
+            <div class="calendar">18<br /><span>APR</span></div>
             Agile Swarming Conference - Ideas that cripple organizations in 2024
           </h3>
           <p>
             <i class="fas fa-info-circle"></i>
             We’ll dive into some ideas that have been recently trending in top management circles, that actually hinder
             organizational agility. We’ill explore in a thought provoking way why those ideas might not be as great as
-            they seem and how to challange them with solid arguments. Join if you’re interested in Organizational Design
+            they seem and how to challenge them with solid arguments. Join if you’re interested in Organizational Design
             and talking with the c-level. Let’s explore topics like
 
             Code ownership
-            Cogenitiv load
+            Cognitive load
             Larman Laws
             and ”Having to fix someone else’s shitty code at 2am!”
           </p>
@@ -536,22 +540,22 @@
             <i class="fas fa-map-marker-alt"></i> Park Inn by Radisson
             ul. Monte Cassino 2
             Krakow
-            <a href="https://agileswarming.com/" target="_blank">Register
+            <a href="https://agileswarming.com/" target="_blank" rel="noopener noreferrer">Register
               now!</a>
           </p>
           <p><i class="fas fa-language"></i> Language English</p>
           <p>
             <i class="fas fa-chalkboard-teacher"></i>
-            <a href="trainers.html#bd">Błażej Drobniuch</a>
+            <a href="/trainers.html#bd">Błażej Drobniuch</a>
           </p>
-          <a href="contact.html#contactform" class="button">Contact us</a>
+          <a href="/contact.html#contactform" class="button">Contact us</a>
         </div>
 
         <h3>March 2024</h3>
 
         <div class="event">
           <h3>
-            <div class="callendar">14<br /><span>MAR</span></div>
+            <div class="calendar">14<br /><span>MAR</span></div>
             eXtreme Mob Programming Kata
           </h3>
           <p>
@@ -574,29 +578,29 @@
           </p>
           <p>
             <i class="fas fa-map-marker-alt"></i> Runroom C/Santa Eulàlia, 5-9, 3º, Barcelona
-            <a href="https://info.runroom.com/en/coding-dojo-extreme-mob-programming-kata" target="_blank">Register
+            <a href="https://info.runroom.com/en/coding-dojo-extreme-mob-programming-kata" target="_blank" rel="noopener noreferrer">Register
               now!</a>
           </p>
           <p><i class="fas fa-language"></i> Language English</p>
           <p>
             <i class="fas fa-chalkboard-teacher"></i>
-            <a href="trainers.html#bd">Błażej Drobniuch</a>
+            <a href="/trainers.html#bd">Błażej Drobniuch</a>
           </p>
-          <a href="contact.html#contactform" class="button">Contact us</a>
+          <a href="/contact.html#contactform" class="button">Contact us</a>
         </div>
 
         <h3>October 2023</h3>
 
         <div class="event">
           <h3>
-            <div class="callendar">20<br /><span>OCT</span></div>
+            <div class="calendar">20<br /><span>OCT</span></div>
 
             Large Scale Scrum (LeSS) in NYC & Global: The "impossible" LeSS adoption in eCommerce (remote experience)
           </h3>
           <p>
             <i class="fas fa-info-circle"></i>
-            Hear about the inspiring journey of a kaikaku flip-forward that drastically improved buisness agility and
-            invloved nine teams (136 people) at an e-commerce company in Poland. Learn how we moved away from the
+            Hear about the inspiring journey of a kaikaku flip-forward that drastically improved business agility and
+            involved nine teams (136 people) at an e-commerce company in Poland. Learn how we moved away from the
             "modern" waterfall, component groups, siloed departments of architects, UX and CX, and a web of
             coordinators.
 
@@ -606,16 +610,16 @@
           </p>
           <p>
             <i class="fas fa-map-marker-alt"></i> Online
-            <a href="https://www.meetup.com/large-scale-scrum-less-in-nyc/events/296447291/" target="_blank">Subscribe
+            <a href="https://www.meetup.com/large-scale-scrum-less-in-nyc/events/296447291/" target="_blank" rel="noopener noreferrer">Subscribe
               at
               Meetup.com</a>
           </p>
           <p><i class="fas fa-language"></i> Language English</p>
           <p>
             <i class="fas fa-chalkboard-teacher"></i>
-            <a href="trainers.html#bd">Błażej Drobniuch</a>
+            <a href="/trainers.html#bd">Błażej Drobniuch</a>
           </p>
-          <a href="contact.html#contactform" class="button">Contact us</a>
+          <a href="/contact.html#contactform" class="button">Contact us</a>
         </div>
 
 
@@ -624,13 +628,13 @@
 
         <div class="event">
           <h3>
-            <div class="callendar">28<br /><span>SEP</span></div>
+            <div class="calendar">28<br /><span>SEP</span></div>
             2023 LeSS Conference Berlin: The "impossible" LeSS adoption in eCommerce (remote experience)
           </h3>
           <p>
             <i class="fas fa-info-circle"></i>
-            Hear about the inspiring journey of a kaikaku flip-forward that drastically improved buisness agility and
-            invloved nine teams (136 people) at an e-commerce company in Poland. Learn how we moved away from the
+            Hear about the inspiring journey of a kaikaku flip-forward that drastically improved business agility and
+            involved nine teams (136 people) at an e-commerce company in Poland. Learn how we moved away from the
             "modern" waterfall, component groups, siloed departments of architects, UX and CX, and a web of
             coordinators.
           </p>
@@ -640,23 +644,23 @@
           <p>
             <i class="fas fa-map-marker-alt"></i> Funkhaus Berlin - Nalepastr. 18
             12459 Berlin
-            <a href="https://less.works/conferenza/conferences/2023-less-conference-berlin-9" target="_blank">2023
+            <a href="https://less.works/conferenza/conferences/2023-less-conference-berlin-9" target="_blank" rel="noopener noreferrer">2023
               LeSS
               Conference Berlin</a>
           </p>
           <p><i class="fas fa-language"></i> Language English</p>
           <p>
             <i class="fas fa-chalkboard-teacher"></i>
-            <a href="trainers.html#bd">Błażej Drobniuch</a>
+            <a href="/trainers.html#bd">Błażej Drobniuch</a>
           </p>
-          <a href="contact.html#contactform" class="button">Contact us</a>
+          <a href="/contact.html#contactform" class="button">Contact us</a>
         </div>
 
         <h3>November 2022</h3>
 
         <div class="event">
           <h3>
-            <div class="callendar">9<br /><span>NOV</span></div>
+            <div class="calendar">9<br /><span>NOV</span></div>
             mBank ABCD Agile Conference
           </h3>
           <p>
@@ -672,9 +676,9 @@
           <p><i class="fas fa-language"></i> Language Polish</p>
           <p>
             <i class="fas fa-chalkboard-teacher"></i>
-            <a href="trainers.html#bd">Błażej Drobniuch</a>
+            <a href="/trainers.html#bd">Błażej Drobniuch</a>
           </p>
-          <a href="contact.html#contactform" class="button">Contact us</a>
+          <a href="/contact.html#contactform" class="button">Contact us</a>
         </div>
 
 
@@ -683,7 +687,7 @@
 
         <div class="event">
           <h3>
-            <div class="callendar">14<br /><span>OCT</span></div>
+            <div class="calendar">14<br /><span>OCT</span></div>
             Piwo Między Projektami: Zwinni specjaliści. Wiele zespołów ich potrzebuje, ale jak zrekrutować wartościowego
             Scrum Mastera lub Product Ownera?
           </h3>
@@ -697,22 +701,22 @@
           </p>
           <p>
             <i class="fas fa-map-marker-alt"></i> Muzeum Armii Krajowej, ul. Wita Stwosza 12
-            <a href="https://piwomiedzyprojektami.pl/event/krakow/" target="_blank">Piwo Między
+            <a href="https://piwomiedzyprojektami.pl/event/krakow/" target="_blank" rel="noopener noreferrer">Piwo Między
               Projektami Kraków</a>
           </p>
           <p><i class="fas fa-language"></i> Language Polish</p>
           <p>
             <i class="fas fa-chalkboard-teacher"></i>
-            <a href="trainers.html#bd">Błażej Drobniuch</a>
+            <a href="/trainers.html#bd">Błażej Drobniuch</a>
           </p>
-          <a href="contact.html#contactform" class="button">Contact us</a>
+          <a href="/contact.html#contactform" class="button">Contact us</a>
         </div>
 
         <h3>September 2022</h3>
 
         <div class="event">
           <h3>
-            <div class="callendar">26<br /><span>SEP</span></div>
+            <div class="calendar">26<br /><span>SEP</span></div>
             AgileByExample 2022 Warsaw:Product Coaching Dojo: eCommerce Sparring
           </h3>
           <p>
@@ -726,21 +730,21 @@
           </p>
           <p>
             <i class="fas fa-map-marker-alt"></i> Warszawa, Poland
-            <a href="https://agilebyexample.com/" target="_blank">agilebyexample.com</a>
+            <a href="https://agilebyexample.com/" target="_blank" rel="noopener noreferrer">agilebyexample.com</a>
           </p>
           <p><i class="fas fa-language"></i> Language English</p>
           <p>
             <i class="fas fa-chalkboard-teacher"></i>
-            <a href="trainers.html#bd">Błażej Drobniuch</a>
+            <a href="/trainers.html#bd">Błażej Drobniuch</a>
           </p>
-          <a href="contact.html#contactform" class="button">Contact us</a>
+          <a href="/contact.html#contactform" class="button">Contact us</a>
         </div>
 
 
 
         <div class="event">
           <h3>
-            <div class="callendar">22<br /><span>SEP</span></div>
+            <div class="calendar">22<br /><span>SEP</span></div>
             2022 LeSS Conference Warsaw: Sprint Review - our tendency for irrelevant things
           </h3>
           <p>
@@ -760,15 +764,15 @@
           </p>
           <p>
             <i class="fas fa-map-marker-alt"></i> Palace of Culture and Science plac Defilad 1, 00-901 Warszawa, Poland
-            <a href="https://less.works/conferenza/conferences/2022-less-conference-warsaw-8" target="_blank">2022 LeSS
+            <a href="https://less.works/conferenza/conferences/2022-less-conference-warsaw-8" target="_blank" rel="noopener noreferrer">2022 LeSS
               Conference Warsaw</a>
           </p>
           <p><i class="fas fa-language"></i> Language English</p>
           <p>
             <i class="fas fa-chalkboard-teacher"></i>
-            <a href="trainers.html#bd">Błażej Drobniuch</a>
+            <a href="/trainers.html#bd">Błażej Drobniuch</a>
           </p>
-          <a href="contact.html#contactform" class="button">Contact us</a>
+          <a href="/contact.html#contactform" class="button">Contact us</a>
         </div>
 
 
@@ -777,7 +781,7 @@
 
         <div class="event">
           <h3>
-            <div class="callendar">20<br /><span>MAY</span></div>
+            <div class="calendar">20<br /><span>MAY</span></div>
             Piwo Między Projektami: Skąd się bierze lęk i agresja i jak reagować gdy zarządzasz zmianą?
           </h3>
           <p>
@@ -799,15 +803,15 @@
           <p>
             <i class="fas fa-map-marker-alt"></i> Błonia Bistro,
             Krakow
-            <a href="https://www.linkedin.com/company/piwo-mi%C4%99dzy-projektami/" target="_blank">Piwo Między
+            <a href="https://www.linkedin.com/company/piwo-mi%C4%99dzy-projektami/" target="_blank" rel="noopener noreferrer">Piwo Między
               Projektami</a>
           </p>
           <p><i class="fas fa-language"></i> Language Polish</p>
           <p>
             <i class="fas fa-chalkboard-teacher"></i>
-            <a href="trainers.html#bd">Błażej Drobniuch</a>
+            <a href="/trainers.html#bd">Błażej Drobniuch</a>
           </p>
-          <a href="contact.html#contactform" class="button">Contact us</a>
+          <a href="/contact.html#contactform" class="button">Contact us</a>
         </div>
 
         <h3>April 2022</h3>
@@ -815,12 +819,12 @@
 
         <div class="event">
           <h3>
-            <div class="callendar">7<br /><span>APR</span></div>
+            <div class="calendar">7<br /><span>APR</span></div>
             Agile Swarming: Product Coaching Dojo: eCommerce Sparring
           </h3>
           <p>
             <i class="fas fa-info-circle"></i>
-            <a href="workshops.html#pc" target="_blank">Workshop details</a>
+            <a href="/workshops.html#pc" target="_blank" rel="noopener noreferrer">Workshop details</a>
           </p>
           <p>
             <i class="fas fa-calendar-alt"></i> 7 Apr 2022 9:00 AM 3:30h CEST
@@ -829,25 +833,25 @@
             <i class="fas fa-map-marker-alt"></i> Park Inn by Radisson
             ul. Monte Cassino 2
             Krakow
-            <a href="https://agileswarming.com/" target="_blank">Join Agile Swarming conference</a>
+            <a href="https://agileswarming.com/" target="_blank" rel="noopener noreferrer">Join Agile Swarming conference</a>
           </p>
           <p><i class="fas fa-language"></i> Language Polish</p>
           <p>
             <i class="fas fa-chalkboard-teacher"></i>
-            <a href="trainers.html#bd">Błażej Drobniuch</a>
+            <a href="/trainers.html#bd">Błażej Drobniuch</a>
           </p>
-          <a href="contact.html#contactform" class="button">Contact us</a>
+          <a href="/contact.html#contactform" class="button">Contact us</a>
         </div>
 
 
         <div class="event">
           <h3>
-            <div class="callendar">6<br /><span>APR</span></div>
+            <div class="calendar">6<br /><span>APR</span></div>
             Agile Swarming: Fear and Anxiety in organizations
           </h3>
           <p>
             <i class="fas fa-info-circle"></i>
-            <a href="workshops.html#faaio" target="_blank">Workshop details</a>
+            <a href="/workshops.html#faaio" target="_blank" rel="noopener noreferrer">Workshop details</a>
           </p>
           <p>
             <i class="fas fa-calendar-alt"></i> 6 Apr 2022 10:30 AM 2h CEST
@@ -856,21 +860,21 @@
             <i class="fas fa-map-marker-alt"></i> Park Inn by Radisson
             ul. Monte Cassino 2
             Krakow
-            <a href="https://agileswarming.com/" target="_blank">Join Agile Swarming conference</a>
+            <a href="https://agileswarming.com/" target="_blank" rel="noopener noreferrer">Join Agile Swarming conference</a>
           </p>
           <p><i class="fas fa-language"></i> Language Polish</p>
           <p>
             <i class="fas fa-chalkboard-teacher"></i>
-            <a href="trainers.html#bd">Błażej Drobniuch</a>
+            <a href="/trainers.html#bd">Błażej Drobniuch</a>
           </p>
-          <a href="contact.html#contactform" class="button">Contact us</a>
+          <a href="/contact.html#contactform" class="button">Contact us</a>
         </div>
 
         <h3>March 2022</h3>
 
         <div class="event">
           <h3>
-            <div class="callendar">22<br /><span>MAR</span></div>
+            <div class="calendar">1<br /><span>MAR</span></div>
             unWebinar: CODING ESCAPE ROOM with FesLe
           </h3>
           <p>
@@ -890,69 +894,69 @@
           </p>
           <p>
             <i class="fas fa-map-marker-alt"></i> Online
-            <a href="https://www.meetup.com/meetup-group-ahpgmvfs/events/284133014/" target="_blank">Subscribe at
+            <a href="https://www.meetup.com/meetup-group-ahpgmvfs/events/284133014/" target="_blank" rel="noopener noreferrer">Subscribe at
               Meetup.com</a>
           </p>
           <p><i class="fas fa-language"></i> Language English</p>
           <p>
             <i class="fas fa-chalkboard-teacher"></i>
-            <a href="trainers.html#bd">Błażej Drobniuch</a>
+            <a href="/trainers.html#bd">Błażej Drobniuch</a>
           </p>
-          <a href="contact.html#contactform" class="button">Contact us</a>
+          <a href="/contact.html#contactform" class="button">Contact us</a>
         </div>
 
         <h3>October 2021</h3>
 
         <div class="event">
           <h3>
-            <div class="callendar">11<br /><span>OCT</span></div>
+            <div class="calendar">11<br /><span>OCT</span></div>
             AgileByExample: XP Dojo for Dev-Teams
           </h3>
           <p>
             <i class="fas fa-info-circle"></i>
-            <a href="workshops.html#ssfat" target="_blank">Full description</a>
+            <a href="/workshops.html#ssfat" target="_blank" rel="noopener noreferrer">Full description</a>
           </p>
           <p><i class="fas fa-calendar-alt"></i> 11 Oct 2021</p>
           <p>
             <i class="fas fa-map-marker-alt"></i> Online
-            <a href="https://agilebyexample.com/tickets/" target="_blank">Get a ticket</a>
+            <a href="https://agilebyexample.com/tickets/" target="_blank" rel="noopener noreferrer">Get a ticket</a>
           </p>
           <p><i class="fas fa-language"></i> Language English</p>
           <p>
             <i class="fas fa-chalkboard-teacher"></i>
-            <a href="trainers.html#bd">Błażej Drobniuch</a>,
+            <a href="/trainers.html#bd">Błażej Drobniuch</a>,
           </p>
-          <a href="contact.html#contactform" class="button">Contact us</a>
+          <a href="/contact.html#contactform" class="button">Contact us</a>
         </div>
 
         <div class="event">
           <h3>
-            <div class="callendar">11<br /><span>OCT</span></div>
+            <div class="calendar">11<br /><span>OCT</span></div>
             AgileByExample: How to recruit for Agile roles?
           </h3>
           <p>
             <i class="fas fa-info-circle"></i>
-            <a href="workshops.html#htrfar" target="_blank">Full description</a>
+            <a href="/workshops.html#htrfar" target="_blank" rel="noopener noreferrer">Full description</a>
           </p>
           <p><i class="fas fa-calendar-alt"></i> 11 Oct 2021</p>
           <p>
             <i class="fas fa-map-marker-alt"></i> Online
-            <a href="https://agilebyexample.com/tickets/" target="_blank">Get a ticket</a>
+            <a href="https://agilebyexample.com/tickets/" target="_blank" rel="noopener noreferrer">Get a ticket</a>
           </p>
           <p><i class="fas fa-language"></i> Language English</p>
           <p>
             <i class="fas fa-chalkboard-teacher"></i>
-            <a href="trainers.html#bd">Błażej Drobniuch</a>,
-            <a href="trainers.html#tm">Tomasz Morański</a>,
+            <a href="/trainers.html#bd">Błażej Drobniuch</a>,
+            <a href="/trainers.html#tm">Tomasz Morański</a>,
           </p>
-          <a href="contact.html#contactform" class="button">Contact us</a>
+          <a href="/contact.html#contactform" class="button">Contact us</a>
         </div>
 
         <h3>July 2021</h3>
 
         <div class="event">
           <h3>
-            <div class="callendar">21<br /><span>JUL</span></div>
+            <div class="calendar">21<br /><span>JUL</span></div>
             FesLe unWebinar: SAFe nie jest Agile!
           </h3>
           <p>
@@ -970,22 +974,22 @@
           </p>
           <p>
             <i class="fas fa-map-marker-alt"></i> Online
-            <a href="https://www.meetup.com/meetup-group-ahpgmvfs/events/279302425/" target="_blank">Subscribe at
+            <a href="https://www.meetup.com/meetup-group-ahpgmvfs/events/279302425/" target="_blank" rel="noopener noreferrer">Subscribe at
               Meetup.com</a>
           </p>
           <p><i class="fas fa-language"></i> Language Polish</p>
           <p>
             <i class="fas fa-chalkboard-teacher"></i>
-            <a href="trainers.html#bd">Błażej Drobniuch</a>,
-            <a target="_blank" href="https://www.linkedin.com/in/m-januszewski/">Michal Januszewski</a>
+            <a href="/trainers.html#bd">Błażej Drobniuch</a>,
+            <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/m-januszewski/">Michal Januszewski</a>
           </p>
-          <a href="contact.html#contactform" class="button">Contact us</a>
+          <a href="/contact.html#contactform" class="button">Contact us</a>
         </div>
 
         <div class="event">
           <h3>
-            <div class="callendar">18<br /><span>JUL</span></div>
-            Women in Agile: Free yourself nad move your organization level up
+            <div class="calendar">18<br /><span>JUL</span></div>
+            Women in Agile: Free yourself and move your organization level up
           </h3>
           <p>
             <i class="fas fa-info-circle"></i> We want to work as change
@@ -1006,20 +1010,20 @@
           <p>
             <i class="fas fa-map-marker-alt"></i>
             Online:
-            <a href="https://www.eventbrite.com/e/women-in-agile-2021-online-tickets-142550027971" target="_blank">Women
+            <a href="https://www.eventbrite.com/e/women-in-agile-2021-online-tickets-142550027971" target="_blank" rel="noopener noreferrer">Women
               in Agile 2021: Renew</a>
           </p>
           <p>
             <i class="fas fa-chalkboard-teacher"></i>
-            <a href="trainers.html#mz">Marzena Zaziąbł</a>
+            <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/marzenazaziabl/">Marzena Zaziąbł</a>
           </p>
-          <a href="contact.html#contactform" class="button">Contact us</a>
+          <a href="/contact.html#contactform" class="button">Contact us</a>
         </div>
 
         <h3>June 2021</h3>
         <div class="event">
           <h3>
-            <div class="callendar">22<br /><span>JUN</span></div>
+            <div class="calendar">22<br /><span>JUN</span></div>
             FesLe unWebinar: Źle to zrobił! Przekołczuje go. (Kim jest coach i
             kiedy używać coachingu w roli managera.)
           </h3>
@@ -1034,24 +1038,24 @@
           </p>
           <p>
             <i class="fas fa-map-marker-alt"></i> Online. Subscribe using
-            <a href="contact.html#contactform">Contact Form</a> put "Coach" in
+            <a href="/contact.html#contactform">Contact Form</a> put "Coach" in
             the "Leave a message" field.
           </p>
           <p><i class="fas fa-language"></i> Language Polish</p>
           <p>
             <i class="fas fa-chalkboard-teacher"></i>
-            <a href="trainers.html#mz">Marzena Zaziąbł</a>,
-            <a target="_blank" href="https://www.linkedin.com/in/marcinlelek/">Marcin Lelek</a>
+            <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/marzenazaziabl/">Marzena Zaziąbł</a>,
+            <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/marcinlelek/">Marcin Lelek</a>
           </p>
-          <!--<a href="workshops.html#faaio" class="button">Workshop details</a> -->
-          <a href="contact.html#contactform" class="button">Contact us</a>
+          <!--<a href="/workshops.html#faaio" class="button">Workshop details</a> -->
+          <a href="/contact.html#contactform" class="button">Contact us</a>
         </div>
 
         <h3>May 2021:</h3>
 
         <div class="event">
           <h3>
-            <div class="callendar">26<br /><span>MAY</span></div>
+            <div class="calendar">26<br /><span>MAY</span></div>
             FesLe unWebinar: That's NONE of your business! (When Developers
             take ownership of your product)
           </h3>
@@ -1069,22 +1073,22 @@
           </p>
           <p>
             <i class="fas fa-map-marker-alt"></i> Online. Subscribe using
-            <a href="contact.html#contactform">Contact Form</a> put "BDD" & in
+            <a href="/contact.html#contactform">Contact Form</a> put "BDD" & in
             the "Leave a message" field.
           </p>
           <p><i class="fas fa-language"></i> Language English</p>
           <p>
             <i class="fas fa-chalkboard-teacher"></i>
-            <a href="trainers.html#bd">Błażej Drobniuch</a>,
-            <a target="_blank" href="https://www.linkedin.com/in/andreas-worm/">Andreas Worm</a>
+            <a href="/trainers.html#bd">Błażej Drobniuch</a>,
+            <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/andreas-worm/">Andreas Worm</a>
           </p>
-          <!--<a href="workshops.html#faaio" class="button">Workshop details</a> -->
-          <a href="contact.html#contactform" class="button">Contact us</a>
+          <!--<a href="/workshops.html#faaio" class="button">Workshop details</a> -->
+          <a href="/contact.html#contactform" class="button">Contact us</a>
         </div>
 
         <div class="event">
           <h3>
-            <div class="callendar">20<br /><span>MAY</span></div>
+            <div class="calendar">20<br /><span>MAY</span></div>
             Ponad hierarchią. Jak kreować partnerską współpracę z managerem?
           </h3>
           <p>
@@ -1099,21 +1103,21 @@
           </p>
           <p>
             <i class="fas fa-map-marker-alt"></i> Online
-            <a href="https://www.meetup.com/pl-PL/tech-talk-wroclaw/events/277687517/" target="_blank">Subscribe at
+            <a href="https://www.meetup.com/pl-PL/tech-talk-wroclaw/events/277687517/" target="_blank" rel="noopener noreferrer">Subscribe at
               Meetup.com</a>
           </p>
           <p><i class="fas fa-language"></i> Language Polish</p>
           <p>
             <i class="fas fa-chalkboard-teacher"></i>
-            <a href="trainers.html#mz">Marzena Zaziąbł</a>
+            <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/marzenazaziabl/">Marzena Zaziąbł</a>
           </p>
-          <!--<a href="workshops.html#faaio" class="button">Workshop details</a> -->
-          <a href="contact.html#contactform" class="button">Contact us</a>
+          <!--<a href="/workshops.html#faaio" class="button">Workshop details</a> -->
+          <a href="/contact.html#contactform" class="button">Contact us</a>
         </div>
 
         <div class="event">
           <h3>
-            <div class="callendar">12<br /><span>MAY</span></div>
+            <div class="calendar">12<br /><span>MAY</span></div>
             FesLe unWebinar: Performance Review - happy manager or happy
             employee?
           </h3>
@@ -1130,24 +1134,24 @@
           <p>
             <i class="fas fa-map-marker-alt"></i> Online
             <a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=MWljcTN0dXE0M3FtOGNocGI5ZGlyNHM2dDkgY182MzhibHViaXVnc3NmdTZ2MXNzczE0NThzc0Bn&tmsrc=c_638blubiugssfu6v1sss1458ss%40group.calendar.google.com"
-              target="_blank">add to Google calendar</a>
+              target="_blank" rel="noopener noreferrer">add to Google calendar</a>
           </p>
           <p><i class="fas fa-language"></i> Language Polish</p>
           <p>
             <i class="fas fa-chalkboard-teacher"></i>
-            <a href="trainers.html#mz">Marzena Zaziąbł</a>
-            <a href="trainers.html#bd">Błażej Drobniuch</a>
-            <a href="trainers.html#tm">Tomasz Morański</a>
+            <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/marzenazaziabl/">Marzena Zaziąbł</a>
+            <a href="/trainers.html#bd">Błażej Drobniuch</a>
+            <a href="/trainers.html#tm">Tomasz Morański</a>
           </p>
-          <!--<a href="workshops.html#faaio" class="button">Workshop details</a> -->
-          <a href="contact.html#contactform" class="button">Contact us</a>
+          <!--<a href="/workshops.html#faaio" class="button">Workshop details</a> -->
+          <a href="/contact.html#contactform" class="button">Contact us</a>
         </div>
 
         <h3>April 2021:</h3>
 
         <div class="event">
           <h3>
-            <div class="callendar">21<br /><span>APR</span></div>
+            <div class="calendar">21<br /><span>APR</span></div>
             FesLe unWebinar: User Stories GONE WRONG!
           </h3>
           <p>
@@ -1165,15 +1169,15 @@
           </p>
           <p>
             <i class="fas fa-chalkboard-teacher"></i>
-            <a href="trainers.html#bd">Błażej Drobniuch</a>
-            <a href="https://www.linkedin.com/in/marekgronowski/" target="_blank">Marek Gronowski</a>
+            <a href="/trainers.html#bd">Błażej Drobniuch</a>
+            <a href="https://www.linkedin.com/in/marekgronowski/" target="_blank" rel="noopener noreferrer">Marek Gronowski</a>
           </p>
-          <a href="contact.html#contactform" class="button">Contact us</a>
+          <a href="/contact.html#contactform" class="button">Contact us</a>
         </div>
 
         <div class="event">
           <h3>
-            <div class="callendar">15<br /><span>APR</span></div>
+            <div class="calendar">15<br /><span>APR</span></div>
             Agile Swarming: See, measure and learn - how to benefit from VSM
           </h3>
           <p>
@@ -1187,15 +1191,15 @@
           <p><i class="fas fa-map-marker-alt"></i> Online</p>
           <p>
             <i class="fas fa-chalkboard-teacher"></i>
-            <a href="trainers.html#mz">Marzena Zaziąbł</a>
+            <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/marzenazaziabl/">Marzena Zaziąbł</a>
           </p>
-          <!--<a href="workshops.html#faaio" class="button">Workshop details</a> -->
-          <a href="contact.html#contactform" class="button">Contact us</a>
+          <!--<a href="/workshops.html#faaio" class="button">Workshop details</a> -->
+          <a href="/contact.html#contactform" class="button">Contact us</a>
         </div>
 
         <div class="event">
           <h3>
-            <div class="callendar">8<br /><span>APR</span></div>
+            <div class="calendar">8<br /><span>APR</span></div>
             DareIT: Learning process in an agile environment
           </h3>
           <p>
@@ -1208,21 +1212,21 @@
           <p><i class="fas fa-map-marker-alt"></i> Online</p>
           <p>
             <i class="fas fa-chalkboard-teacher"></i>
-            <a href="trainers.html#mz">Marzena Zaziąbł</a>
+            <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/marzenazaziabl/">Marzena Zaziąbł</a>
           </p>
-          <!-- <a href="workshops.html#faaio" class="button">Workshop details</a>  -->
-          <a href="contact.html#contactform" class="button">Contact us</a>
+          <!-- <a href="/workshops.html#faaio" class="button">Workshop details</a>  -->
+          <a href="/contact.html#contactform" class="button">Contact us</a>
         </div>
 
         <h3>March 2021:</h3>
         <div class="event">
           <h3>
-            <div class="callendar">18<br /><span>MAR</span></div>
+            <div class="calendar">18<br /><span>MAR</span></div>
             ALE Kraków: XP Dojo for Dev-Teams
           </h3>
           <p>
             <i class="fas fa-info-circle"></i> ALE Kraków open event
-            <a target="_blank"
+            <a target="_blank" rel="noopener noreferrer"
               href="https://www.alekrakow.com/2021/03/xp-dojo-dla-zespoow-deweloperskich.html#more">www.alekrakow.com</a>
           </p>
           <p>
@@ -1232,57 +1236,54 @@
           <p><i class="fas fa-map-marker-alt"></i> Online</p>
           <p>
             <i class="fas fa-chalkboard-teacher"></i>
-            <a href="trainers.html#bd">Błażej Drobniuch</a>
+            <a href="/trainers.html#bd">Błażej Drobniuch</a>
           </p>
-          <a href="workshops.html#ssfat" class="button">Workshop details</a>
-          <a href="contact.html#contactform" class="button">Contact us</a>
+          <a href="/workshops.html#ssfat" class="button">Workshop details</a>
+          <a href="/contact.html#contactform" class="button">Contact us</a>
         </div>
       </section>
     </div>
   </div>
+  <!-- FOOTER: keep in sync with snippets/footer.html -->
   <footer>
     <p>Many thanks for your interactions and support!</p>
-
     <div class="flex-start">
       <div>
         <ul class="navlist">
           <li>
-            <a href="mailto: contact@fesle.eu"><i class="fas fa-envelope-open"></i> contact@fesle.eu</a>
+            <a href="mailto:contact@fesle.eu"><i class="fas fa-envelope-open"></i> contact@fesle.eu</a>
           </li>
           <li>
-            <a target="_blank" href="https://koalendar.com/e/meet-with-fesle-team"><i class="fas fa-phone-volume"></i> Book
-              a call</a>
+            <a target="_blank" rel="noopener noreferrer" href="https://koalendar.com/e/meet-with-fesle-team"><i class="fas fa-phone-volume"></i> Book a call</a>
           </li>
           <li>
-            <a target="_blank" href="https://www.linkedin.com/company/75764132"><i class="fab fa-linkedin"></i> FesLe on
-              LinkedIn</a>
+            <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/company/75764132"><i class="fab fa-linkedin"></i> FesLe on LinkedIn</a>
           </li>
         </ul>
       </div>
       <div>
         <ul class="navlist">
           <li>
-            <a href="workshops.html"><i class="fab fa-wpexplorer"></i> Workshops</a>
+            <a href="/workshops.html"><i class="fab fa-wpexplorer"></i> Workshops</a>
           </li>
           <li>
-            <a href="calendar.html"><i class="fas fa-calendar-alt"></i> Calendar</a>
+            <a href="/calendar.html"><i class="fas fa-calendar-alt"></i> Calendar</a>
           </li>
           <li>
-            <a href="blog.html"><i class="fas fa-newspaper"></i> Blog</a>
+            <a href="/blog.html"><i class="fas fa-newspaper"></i> Blog</a>
           </li>
           <li>
-            <a href="trainers.html"><i class="fas fa-chalkboard-teacher"></i> Trainers</a>
+            <a href="/trainers.html"><i class="fas fa-chalkboard-teacher"></i> Trainers</a>
           </li>
           <li>
-            <a href="contact.html"><i class="fas fa-rocket"></i> About Us</a>
+            <a href="/contact.html"><i class="fas fa-rocket"></i> About Us</a>
           </li>
         </ul>
       </div>
     </div>
-
-    <p>© FesLe 2021. All rights reserved.</p>
+    <p>© FesLe 2021–2026. All rights reserved.</p>
   </footer>
-  <script src="./resources/js/navresponsive.js"></script>
+  <script src="/resources/js/navresponsive.js"></script>
 </body>
 
 </html>
